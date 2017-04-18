@@ -21,9 +21,7 @@ var appData = require ('../data.json');
 var seller = appData.seller;
 var goods = appData.goods;
 var ratings = appData.ratings;
-
 var apiRoutes = express.Router();
-
 apiRoutes.get('/seller',function (req,res) {
   res.json({
     errno:0,
