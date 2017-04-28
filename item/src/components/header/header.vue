@@ -4,7 +4,6 @@
       <div class="avatar">
         <img width="64" height="64" :src="seller.avatar">
       </div>
-
       <div class="content">
         <div class="title">
           <span class="brand"></span>
@@ -132,12 +131,10 @@
             font-size: 16px
             line-height: 18px
             font-weight: bold
-
         .description
           margin-bottom: 10px
           line-height: 12px
           font-size: 14px
-
         .support
           .icon
             display: inline-block

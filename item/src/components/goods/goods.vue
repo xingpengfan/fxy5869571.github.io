@@ -1,5 +1,4 @@
 <template>
-
   <div class="goods">
     <div class="menu-wrapper" v-el:menu-wrapper>
       <ul>
@@ -177,7 +176,6 @@
     position: absolute
     width: 100%
     top: 174px
-    bottom: 46px
     overflow: hidden
     .menu-wrapper
       flex: 0 0 80px
@@ -231,7 +229,6 @@
         font-size: 12px
         color: rgb(147, 133, 159)
         background: #f3f5f7
-
       .food-item
         display: flex
         margin: 18px
@@ -240,7 +237,6 @@
         &:last-child
           border-none
           margin-bottom: 0
-
         .icon
           flex: 0 0 57px
           margin-right: 10px

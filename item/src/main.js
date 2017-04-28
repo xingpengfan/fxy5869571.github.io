@@ -18,8 +18,8 @@ let router = new VueRouter({
 
 router.map({
   '/goods': {
-    component: goods
-  }
+ component: goods
+}
 });
 router.map({
   '/ratings': {
