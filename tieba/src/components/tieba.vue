@@ -10,6 +10,8 @@
                 <h1 class="title">{{list.title}}</h1>
                 <p class="text">{{list.text}}</p>
                 <span class="time">{{list.Time}}</span>
+                <span class="reading">阅读 {{list.reading}}</span>
+                <span class="rating">回复{{list.ratings.length}}</span>
               </div>
             </li>
           </ul>
@@ -109,14 +111,27 @@
               .text
                 margin-left: 10px
                 font-size: 12px
-                line-height: 12px
+                line-height: 20px
                 margin: 10px 5px
+                padding-bottom: 8px
                 color: rgb(147, 153, 159)
               .time
                 position: absolute
-                right: 5px
                 bottom: 5px
+                margin-left: 7px
                 font-size: 10px
                 line-height: 10px
                 color: rgb(147, 153, 159)
+              .reading
+                position: absolute
+                bottom: 5px
+                right: 45px
+                font-size: 7px
+                color: rgb(147,153,159)
+              .rating
+                position: absolute
+                bottom: 5px
+                right: 10px
+                font-size: 7px
+                color: rgb(147,153,159)
 </style>

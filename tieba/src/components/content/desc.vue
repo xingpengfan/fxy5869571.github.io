@@ -1,45 +1,47 @@
 <template>
-  <div class="desc-wrapper" v-show="isShow">
-    <div class="header border-1px">
-      <span class="el-icon-arrow-left" @click="hiddenDesc"></span>
-      <span class="title">建阳吧</span>
-      <span class="host">楼主</span>
-      <span class="el-icon-menu"></span>
-    </div>
-    <div class="host-wrapper  border-1px">
-      <h1 class="title">{{desclist.title}}</h1>
-      <div class="inline" >
+  <div class="desc-wrapper" v-show="isShow" ref="desc">
+    <div class="desc">
+      <div class="header border-1px">
+        <span class="el-icon-arrow-left" @click="hiddenDesc"></span>
+        <span class="title">建阳吧</span>
+        <span class="host">楼主</span>
+        <span class="el-icon-menu"></span>
+      </div>
+      <div class="host-wrapper  border-1px">
+        <h1 class="title">{{desclist.title}}</h1>
+        <div class="inline" >
         <span class="icon">
         <img :src="desclist.icon" width="28" height="28">
       </span>
-        <span class="username">{{desclist.username}}</span>
-        <el-button type="text" size="mini" class="button">+关注</el-button>
+          <span class="username">{{desclist.username}}</span>
+          <el-button type="text" size="mini" class="button">+关注</el-button>
+        </div>
+        <span class="text">{{desclist.text}}</span>
+        <span class="hostname">楼主</span>
+        <span class="time">{{desclist.Time}}</span>
       </div>
-      <span class="text">{{desclist.text}}</span>
-      <span class="hostname">楼主</span>
-      <span class="time">{{desclist.Time}}</span>
-    </div>
-    <div class="content-wrapper" ref="content-wrapper">
-      <ul v-show="desclist.ratings && desclist.ratings.length">
-        <li class="contents border-1px" v-for="(rating,index) in desclist.ratings">
-        <div class="inline">
+      <div class="content-wrapper" ref="content-wrapper">
+        <ul v-show="desclist.ratings && desclist.ratings.length">
+          <li class="contents border-1px" v-for="(rating,index) in desclist.ratings">
+            <div class="inline">
           <span class="icon">
             <img :src="rating.icons" width="20" height="20">
           </span>
-          <span class="name">{{rating.name}}</span>
-        </div>
-          <span class="content">{{rating.content}}</span>
-          <span class="num">第{{index+1}}楼</span>
-          <span class="time">{{rating.time}}</span>
-          <span class="el-icon-more" @click="dialogVisible = true"></span>
-        </li>
-      </ul>
+              <span class="name">{{rating.name}}</span>
+            </div>
+            <span class="content">{{rating.content}}</span>
+            <span class="num">第{{index+1}}楼</span>
+            <span class="time">{{rating.time}}</span>
+            <span class="el-icon-more" @click="dialogVisible = true"></span>
+          </li>
+        </ul>
+      </div>
+      <el-dialog  v-model="dialogVisible" size="tiny"  class="dialog">
+        <span @click="dialogVisible = false" class="read border-1px">回复楼层</span>
+        <span @click="dialogVisible = false" class="read border-1px">收藏</span>
+        <span @click="dialogVisible = false" class="read border-1px">举报</span>
+      </el-dialog>
     </div>
-    <el-dialog  v-model="dialogVisible" size="tiny"  class="dialog">
-      <span @click="dialogVisible = false" class="read border-1px">回复楼层</span>
-      <span @click="dialogVisible = false" class="read border-1px">收藏</span>
-      <span @click="dialogVisible = false" class="read border-1px">举报</span>
-    </el-dialog>
   </div>
 </template>
 <script type="text/ecmascript-6">
@@ -59,15 +61,17 @@
     methods: {
       show() {
         this.isShow = true;
+        this.$nextTick(() => {
+          this._creascroll();
+        });
       },
       hiddenDesc() {
         this.isShow = false;
       },
       _creascroll() {
-        this.descScroll = new BScroll(this.$refs.contentWrapper, {
+        this.descScroll = new BScroll(this.$refs.desc, {
           click: true
         });
-        console.log(this.contentWrapper);
       }
     }
   };
@@ -148,7 +152,6 @@
       top: 202px
       bottom: 0
       width: 100%
-      overflow: hidden
       ul
         margin: 0
         padding: 0
