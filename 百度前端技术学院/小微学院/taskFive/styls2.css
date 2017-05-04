@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(147,153,159,0.5);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.icon{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 50px 0 10px 50px;
+    position: relative;
+    top: 10px;
+}
+#link-item{
+    float: right;
+    padding: 0;
+}
+#link-item li{
+    display: inline;
+    font-size: small;
+    margin: 0 5px;
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+}
+li :visited{
+    color: white;
+}
+li :link{
+    text-decoration: none;
+}
+.content{
+    margin: 15px 300px 15px 12px;
+    background: white;
+    width: auto;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    border-right: 2px solid rgba(0,0,0,0.4);
+    border-radius: 2px;
+}
+.content1{
+    padding: 20px 25px 20px 10px;
+}
+.price{
+    display: inline-block;
+    border: 1px solid rgba(147,153,159,0.5);
+    width: 150px;
+    margin: 20px;
+}
+.price div{
+    padding: 10px 0;
+    text-align: center;
+}
+.price img{
+   position: relative;
+    left: 25px;
+    padding-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid rgba(147,153,159,0.9);
+}
+    td{
+        width: 200px;
+    }
+table thead{
+    background: rgba(0,0,0,0.8)
+}
+table thead td{
+    color: white;
+}
+table tfoot{
+    background: rgba(147,153,159,0.7);
+}
+form{
+   text-align: center;
+}
+form div{
+    padding: 5px;
+}
+form label{
+    font-size: 12px;
+    color: black;
+}
+
+form span{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    color: rgb(147,153,159);
+}
+form textarea{
+    width: 60%;
+    height: 20px;
+}
+#textarea1{
+    position: relative;
+    bottom: 10px;
+}
+form button{
+    background-color: dodgerblue;
+    color: white;
+    width: 80%;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+h1{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+h2{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    top: 65px;
+    background: white;
+    width: 200px;
+    height: 400px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    border-right: 2px solid rgba(0,0,0,0.4);
+    border-radius: 2px;
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(0,0,0);
+}
+.footer p{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: white;
+}

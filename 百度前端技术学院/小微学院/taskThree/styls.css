@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 20px;
+    background: #eee;
+    position: relative;
+    width: 96%;
+    height: 500px;
+    border: 1px solid #999;
+}
+.left{
+    height: 120px;
+    position: relative;
+    margin: 20px;
+    float: left;
+    width: 200px;
+    background: white;
+    border: 1px solid #999;
+}
+.left div{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background: #eee;
+}
+.left span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.right{
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+    height: 420px;
+    background: white;
+    border: 1px solid #999;
+}
+.right div{
+    display: block;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background: #eee;
+}
+.auto{
+    width: auto;
+    margin: 20px 160px 50px 240px;
+    background: white;
+    border: 1px solid #999;
+}
+p{
+    padding: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: black;
+}
