@@ -85,8 +85,8 @@
       <file leaf-file-name="styls.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/styls.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="462" column="13" lean-forward="false" selection-start-line="462" selection-start-column="13" selection-end-line="462" selection-end-column="13" />
+            <state relative-caret-position="535">
+              <caret line="420" column="17" lean-forward="false" selection-start-line="420" selection-start-column="17" selection-end-line="420" selection-end-column="17" />
               <folding>
                 <element signature="e#4#38#0" expanded="false" />
                 <element signature="e#51#129#0" expanded="false" />
@@ -368,12 +368,12 @@
       <workItem from="1494045009363" duration="5658000" />
       <workItem from="1494136043174" duration="7497000" />
       <workItem from="1494224739511" duration="5307000" />
-      <workItem from="1494310284282" duration="5761000" />
+      <workItem from="1494310284282" duration="6121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62636000" />
+    <option name="totallyTimeSpent" value="62996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="474" y="87" width="1402" height="899" extended-state="0" />
@@ -722,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/styls.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="462" column="13" lean-forward="false" selection-start-line="462" selection-start-column="13" selection-end-line="462" selection-end-column="13" />
+        <state relative-caret-position="535">
+          <caret line="420" column="17" lean-forward="false" selection-start-line="420" selection-start-column="17" selection-end-line="420" selection-end-column="17" />
           <folding>
             <element signature="e#4#38#0" expanded="false" />
             <element signature="e#51#129#0" expanded="false" />

@@ -411,9 +411,14 @@ h1,h2,h3,h4 {
     width: 525px;
     height: 30px;
     border: none;
-    background: rgb(147,153,159);
+    background: rgba(147,153,159,0.2);
+    color: rgba(147,153,159,0.9);
     font-size: 14px;
     font-family: 微软雅黑
+}
+.content3 .right-form button:hover{
+    background: rgb(147,153,159);
+    color: white;
 }
 .footer{
     position: relative;
