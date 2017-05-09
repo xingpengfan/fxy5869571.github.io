@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4 {
+    font-weight:normal;
+    font-size:12px;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    padding: 15px 25px 0 35px;
+    background-color: white;
+    overflow: hidden;
+}
+.nav-left{
+    float: left;
+}
+.nav-left .title{
+    font-size: 20px;
+    font-family: 微软雅黑;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.nav-right{
+    float: right;
+}
+.nav-right a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #11456b;
+    margin-left: 10px;
+}
+.nav-right a:hover{
+    border-bottom: 3px solid #e74f4d;
+}
+.nav-right a:last-child:hover{
+    border-bottom: none;
+}
+.header-img{
+    width: 100%;
+    height: 600px;
+    background-image: url("img/firstPart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.header-img .header{
+    margin-left: 100px;
+    padding-top: 180px;
+}
+.header-img .header h1{
+    font-size: 52px;
+    font-family: 黑体;
+    color: white;
+}
+.header-img .header p{
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    font-family: 黑体;
+}
+.header-img .header span{
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    width: 230px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 黑体;
+    background-color: #e74f4d;
+    color: white;
+}
+.header-img .header span:hover{
+    background-color: white;
+    color:  #e74f4d;
+}
+.content{
+    width: 100%;
+    height: 250px;
+}
+.content div {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content .detail{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    text-align: justify;
+    border-right: 1px solid rgba(147,153,159,0.5);
+}
+.content .detail:last-child{
+    border-right: none;
+}
+.content .detail p{
+    text-align: justify;
+    font-size: 12px;
+    font-family: 黑体;
+    line-height: 20px;
+    color: rgb(147,153,159);
+}
+.content .detail p:hover{
+    color: #e74f4d;
+}
+.new-life{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(234,234,236);
+}
+.new-life .img{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.new-life h1{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 黑体;
+    color: rgba(147,153,159,0.8);
+}
+.content-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("img/bgimage-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-img span{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 60px;
+    font-family: 黑体;
+    color: white;
+    z-index: 999;
+}
+.content-img p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+}
+.content-img div{
+    display: flex;
+    justify-content: center;
+     margin-top: 30px;
+}
+.content-img div select{
+    width: 170px;
+    height: 25px;
+    margin-right: 30px;
+    color: rgba(147,153,159,0.8);
+}
+.content-img div button{
+    width: 150px;
+    height: 25px;
+    font-family: 黑体;
+    text-align: center;
+    border: none;
+    background: rgb(190,78,72);
+    color: white;
+}
+.content-img div button:hover{
+    background: #e74f4d;
+}
+.content-img2{
+    background: rgba(147,153,159,0.1);
+    width: 100%;
+    padding: 50px 0 50px 20%;
+}
+.content-img2 div{
+    display: inline-block;
+    margin-right: 30px;
+}
+.content-img2 div img{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid rgba(147,153,159.0.1);
+}
+.content-img2 div:nth-child(2){
+   position: relative;
+   top: 20px;
+}
+.content-img2 h1 {
+    text-align: center;
+    font-family: 黑体;
+    font-weight: 700;
+}
+.content-img2 p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(147,153,159);
+}
+#shanghai{
+    font-size: 20px;
+}
+.content-img3{
+    position: relative;
+    width: 70%;
+    height: 500px;
+    background-image: url("img/sixPart-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-img3 h2{
+    position: absolute;
+    top: 25%;
+    right: 49%;
+    font-size: 40px;
+    color: white;
+}
+.content-img3 h1{
+    position: absolute;
+    top: 35%;
+    right: 38%;
+    font-size: 150px;
+    color: white;
+    font-family: 微软雅黑;
+}
+.content-img3 p{
+    position: absolute;
+    top: 66%;
+    right: 49%;
+    font-size: 16px;
+    color: white;
+}
+.content-img3 h6{
+    position: absolute;
+    top: 68%;
+    right: 50%;
+    font-size: 18px;
+    color: white;
+}
+.content2{
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+.content2 .left{
+    display: inline-block;
+    width: 33%;
+    height: 400px;
+    background-color: #e74f4d;
+}
+.content2 .center{
+    display: inline-block;
+    width: 33%;
+    height: 400px;
+}
+.content2 .right{
+   float: right;
+    width: 33%;
+    height: 400px;
+}
+.content2 .left h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.content2 .left h2{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+}
+.content2 .left span{
+    margin: 50px 0 0  200px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 16px;
+    color: white;
+    font-family: 黑体;
+}
+.content2 .left span:hover{
+    background: white;
+    color: #e74f4d;;
+}
+.content2 .center h1{
+     padding-top: 100px;
+     text-align: center;
+     font-size: 20px;
+     line-height: 30px;
+     color: #e74f4d;
+ }
+.content2 .center h2{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: #e74f4d;
+}
+.content2 .center span{
+    margin: 50px 0 0  200px;
+    padding: 10px 20px;
+    border: 1px solid #e74f4d;
+    font-size: 16px;
+    color: #e74f4d;
+    font-family: 黑体;
+}
+.content2 .center span:hover{
+    background: #e74f4d;
+    color: white;
+}
+.content2 .right h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: #e74f4d;
+}
+.content2 .right p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 黑体;
+    line-height: 20px;
+    color: rgb(147,153,159);
+}
+.content2 .right span{
+    margin: 50px 0 0  200px;
+    padding: 10px 20px;
+    border: 1px solid #e74f4d;
+    font-size: 16px;
+    color: #e74f4d;
+    font-family: 黑体;
+}
+.content2 .right span:hover{
+    background: #e74f4d;
+    color: white;
+}
+.content2 .center h1:hover~ hr{
+    width: 100px;
+}
+.content2 .left h1:hover~ hr{
+    width: 100px;
+}
+.content2 .right h1:hover~ hr{
+    width: 100px;
+}
+.content3{
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+.content3 .content3-header{
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+.content3 .content3-header h1{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 黑体;
+}
+.content3 .content3-header h1:hover~ hr{
+    width: 150px;
+}
+.content3 .content3-header p{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 黑体;
+    color: rgb(147,153,159);
+}
+.content3 .content3-left{
+    float: left;
+    padding: 0 50px 0 18%;
+}
+.content3 .content3-left h1{
+    font-size: 16px;
+    font-family: 黑体;
+    line-height: 40px;
+    color: rgba(0 ,0,0,0.8);
+}
+.content3 .content3-left p{
+    font-size: 10px;
+    line-height: 20px;
+    font-family: 黑体;
+    color: rgba(147,153,159,0.8);
+}
+.content3 .right-form{
+    float: left;
+}
+.content3 .right-form input{
+    width: 250px;
+    height: 28px;
+    font-size: 10px;
+    font-family: 黑体;
+    margin:0 10px 15px 0;
+    border: none;
+    background: rgba(147,153,159,0.2);
+}
+.content3 .right-form textarea{
+    width: 518px;
+    height: 80px;
+    border: none;
+    background: rgba(147,153,159,0.2);
+    font-size: 12px;
+    font-family: 黑体;
+    margin-bottom: 10px;
+}
+.content3 .right-form button{
+    width: 525px;
+    height: 30px;
+    border: none;
+    background: rgb(147,153,159);
+    font-size: 14px;
+    font-family: 微软雅黑
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: rgba(0,0,0,0.8);
+}
+.footer h1:first-child{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    color: white;
+    font-family: 微软雅黑;
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 楷体;
+    padding: 10px 0 ;
+    color: white;
+}
+.footer div{
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    background: white;
+}
+.footer button{
+    width: 80px;
+    border: none;
+    height: 37px;
+    background: rgba(147,153,159,0.4);
+    color: white;
+    font-weight: 700;
+}
+.footer span{
+    padding: 30px;
+}
+.footer-bottom{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.9);
+}
+.footer-bottom .left{
+    float: left;
+    margin: 20px 0 0 100px;
+}
+.footer-bottom .right{
+    float: right;
+    margin: 20px 40px 0 0 ;
+}
+.footer-bottom h2{
+    color: white;
+    font-family: 楷体;
+    font-size: 10px;
+}
