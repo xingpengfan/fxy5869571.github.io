@@ -1,0 +1,44 @@
+#root{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    margin-bottom: 20px;
+    border: 1px solid #22a3ff;
+    align-items: center;
+    justify-content: space-around;
+}
+.child1 {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 40%;
+     height: 80%;
+     border: 1px solid #22a3ff;
+ }
+.child2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 80%;
+    border: 1px solid #22a3ff;
+}
+.child3{
+    width: 40%;
+    height: 80%;
+    border: 1px solid #22a3ff;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    background: #22a3ff;
+    color: white;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskseven</title>
+    <link rel="stylesheet" href="styls.css" type="text/css">
+</head>
+<body>
+<div id="root">
+    <div class="child1">
+        <div class="child2">
+            <div class="child3"></div>
+            <div class="child3"></div>
+        </div>
+        <div class="child2">
+            <div class="child3"></div>
+            <div class="child3"></div>
+        </div>
+    </div >
+    <div class="child1">
+        <div class="child2">
+            <div class="child3"></div>
+            <div class="child3"></div>
+        </div>
+        <div class="child2">
+            <div class="child3"></div>
+            <div class="child3"></div>
+        </div>
+    </div>
+</div>
+<div class="button">
+    <button>先序遍历</button>
+    <button>中序遍历</button>
+    <button>后续遍历</button>
+</div>
+
+<script>
+    var root = document.getElementById("root");
+    var firstButton = document.getElementsByTagName("button")[0];
+    var betweenButton = document.getElementsByTagName("button")[1];
+    var afterButton = document.getElementsByTagName("button")[2];
+    firstButton.onclick = function () {
+            reset();
+            firstOrder(root);
+            console.log(list)
+            show();
+
+    };
+    betweenButton.onclick = function () {
+            reset();
+            betweenOrder(root);
+            show();
+    };
+    afterButton.onclick = function () {
+            reset();
+            laferOrder(root);
+            show();
+    }
+    list = [];
+    function firstOrder(node) {
+        if(node!==null){
+            list.push(node);
+            firstOrder(node.firstElementChild);
+            firstOrder(node.lastElementChild);
+        }
+    };
+    function betweenOrder(node) {
+        if(node!==null){
+            betweenOrder(node.firstElementChild);
+            list.push(node);
+            betweenOrder(node.lastElementChild);
+        }
+    }
+    function laferOrder(node) {
+        if(node!==null){
+            laferOrder(node.firstElementChild);
+            laferOrder(node.lastElementChild);
+            list.push(node);
+        }
+    }
+    //显示遍历过程
+    function show() {
+        var i = 0;
+        list[i].style.background = "red";
+        var time = setInterval(function () {
+            i++;
+            if(i<list.length){
+                list[i].style.background = "red";
+                list[i-1].style.background = "#ffffff";
+            }else {
+                clearInterval(time);
+                list[list.length-1].style.background = "#ffffff";
+            }
+        },500);
+    }
+    function reset() {
+        list=[];
+        divs = document.getElementsByTagName("div");
+        for(i=0;i<divs.length;i++){
+            divs[i].style.background = "#ffffff";
+        }
+    }
+</script>
+</body>
+</html>

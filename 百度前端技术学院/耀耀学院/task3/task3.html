@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task3</title>
+</head>
+<style>
+    .container{
+        width: 1000px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+    input[type="radio"]{
+        display: inline-block;
+        vertical-align:top ;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+    .container div:last-child{
+        display:none;
+    }
+    select{
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    label{
+        display:inline-block ;
+        vertical-align: top;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+</style>
+<body>
+<div class="container">
+    <input type="radio" name="study" checked="checked"><label for="study">在校生</label>
+    <input type="radio" name="study"><label for="study">非在校生</label>
+    <div>
+        <label class="school">学校</label><select name="" >
+            <option>北京</option>
+        <option>上海</option>
+        <option>南京</option>
+        <option>杭州</option>
+        </select>
+        <select name="" >
+        <option>北京大学</option>
+       </select>
+    </div>
+    <div>
+        <label for="">就业单位</label><input type="text">
+    </div>
+</div>
+</body>
+<script>
+    window.onload = function () {
+        var divs = document.getElementsByTagName("div");
+        var inputEle = document.getElementsByTagName("input");
+        var obj = document.getElementsByTagName("select")[1];
+        var select=document.getElementsByTagName("select");
+        console.log(inputEle[0]);
+        console.log(divs[1])
+        inputEle[0].onchange = function () {
+            divs[1].style.display = "block";
+            divs[2].style.display = "none";
+        }
+        inputEle[1].onchange = function () {
+            divs[1].style.display = "none";
+            divs[2].style.display = "block";
+        }
+        select[0].onchange=function(){
+            school(select[0].value);
+        }
+        function school(a){
+            obj.options.length = 0;
+            switch(a){
+                case "北京":
+                    obj.add(new Option("北京大学"));
+                    obj.add(new Option("清华大学"));
+                    obj.add(new Option("中国人民大学"));
+                    obj.add(new Option("北京师范大学"));
+                    break;
+                case "上海":
+                    obj.add(new Option("复旦大学"));
+                    obj.add(new Option("上海交通大学"));
+                    obj.add(new Option("同济大学"));
+                    obj.add(new Option("华东师范大学"));
+                    break;
+                case "南京":
+                    obj.add(new Option("南京大学"));
+                    obj.add(new Option("东南大学"));
+                    obj.add(new Option("中国药科大学"));
+                    obj.add(new Option("河海大学"));
+                    break;
+                case "杭州":
+                    obj.add(new Option("浙江大学"));
+                    obj.add(new Option("浙江工业大学"));
+                    obj.add(new Option("杭州电子科技大学"));
+                    obj.add(new Option("浙江工商大学"));
+                    break;
+            }
+        }
+    }
+</script>
+</html>

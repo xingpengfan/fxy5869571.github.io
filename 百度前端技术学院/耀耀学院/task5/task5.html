@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task5</title>
+    <style>
+        body{
+            background: black;
+        }
+        .container{
+            padding: 50px;
+            position: relative;
+            width: 500px;
+             margin: 0 auto;
+            background: white;
+            border-radius: 4px;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+        td{
+            width: 40px;
+            height: 40px;
+        }
+        .top{
+        }
+        p{
+           padding-bottom: 5px;
+        }
+        span{
+            display: inline-block;
+            width: 43px;
+            text-align: center;
+        }
+        .left{
+            position: absolute;
+            top: 70px;
+            left: 30px;
+        }
+        .table-wrapper{
+            position: relative;
+            margin-bottom: 10px;
+        }
+        #box{
+            position: absolute;
+            left: 1px;
+            top: 1px;
+            width: 23px;
+            height: 23px;
+            border: 10px solid;
+            border-color:  blue transparent transparent transparent;
+            background: red;
+            transition: left 1s, top 1s, transform 1s;
+            -moz-transition: left 1s, top 1s, -moz-transform 1s;
+            -webkit-transition: left 1s, top 1s, -webkit-transform 1s;
+            -o-transition: left 1s, top 1s,-o-transform 1s;
+        }
+        input{
+            margin-left: 50px;
+            width: 250px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        button{
+            height: 30px;
+            width: 50px;
+            border: none;
+            background: #1475ff;
+            color: white;
+        }
+        .dail{
+            font-size: 14px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+    </div>
+    <div class="table-wrapper">
+        <div class="table">
+            <table border="1" >
+                <div id="box"></div>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="left">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+    </div>
+    <input type="text">
+    <button>执行</button>
+    <p class="dail">输入“GO”向前移动一格 输入“TUN LEF”左转 输入“TUN RIG”右转 输入“TUN BAC”向后转</p>
+    <p>增加新的指令如下：
+        TRA LEF：向屏幕的左侧移动一格，方向不变</p>
+    <p>TRA TOP：向屏幕的上面移动一格，方向不变</p>
+    <p>TRA RIG：向屏幕的右侧移动一格，方向不变</p>
+    <p>TRA BOT：向屏幕的下面移动一格，方向不变</p>
+    <p> MOV LEF：方向转向屏幕左侧，并向屏幕的左侧移动一格</p>
+    <p> MOV TOP：方向转向屏幕上面，向屏幕的上面移动一格</p>
+    <p> MOV RIG：方向转向屏幕右侧，向屏幕的右侧移动一格</p>
+    <p> MOV BOT：方向转向屏幕下面，向屏幕的下面移动一格</p>
+</div>
+</body>
+<script>
+    window.onload = function () {
+        var boxEle= document.getElementById("box");
+        var text = document.getElementsByTagName("input")[0];
+        var btnEle = document.getElementsByTagName("button")[0];
+        var i = 0;
+        var left = Number(boxEle.style.left.replace('px', ''));
+        var top = Number(boxEle.style.top.replace('px', ''));
+            btnEle.onclick = function () {
+                switch (text.value){
+                    //左转
+                    case "TUN LEF":
+                        i--;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        break;
+                        //右转
+                    case "TUN RIG":
+                        i++;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        break;
+                        //向后转
+                    case "TUN BAC":
+                        i=i-2;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        break;
+                        //向前移动一格
+                    case "GO":
+                        console.log(getdirecion())
+                        switch (getdirecion(i)){
+                            case 0:
+                                if(top>30){
+                                    top -=43;
+                                    boxEle.style.top = top+"px";
+                                }
+                                break;
+                            case 1:
+                                if(left<387){
+                                    left+=43;
+                                    boxEle.style.left = left+"px";
+                                }
+                                break;
+                            case 2:
+                                if(top<387){
+                                    top +=43;
+                                    boxEle.style.top = top+"px";
+                                }
+                                break;
+                            case 3:
+                                if(left>30){
+                                    left -=43;
+                                    boxEle.style.left = left+"px";
+                                }
+                                break;
+                        }
+                                break;
+                        //TRA LEF：向屏幕的左侧移动一格，方向不变
+                    case "TRA LEF":
+                       setTimeout(function () {
+                           if(left>30){
+                               left -=43;
+                               boxEle.style.left = left+"px";
+                           }
+
+                       },1000);
+                        break;
+                        //向屏幕的上面移动一格，方向不变
+                    case "TRA TOP":
+                        setTimeout(function () {
+                            if(top>30){
+                                top -=43;
+                                boxEle.style.top = top+"px";
+                            }
+                        },1000);
+                        break;
+                        //向屏幕的右侧移动一格，方向不变
+                    case "TRA RIG":
+                        setTimeout(function () {
+                            if(left<387){
+                                left+=43;
+                                boxEle.style.left = left+"px";
+                            }
+
+                        },1000);
+                        break;
+                        //向屏幕的下面移动一格，方向不变
+                    case "TRA BOT":
+                        setTimeout(function () {
+                            if(top<387){
+                                top +=43;
+                                boxEle.style.top = top+"px";
+                            }
+                        },1000);
+                        break;
+                        //方向转向屏幕左侧，并向屏幕的左侧移动一格
+                    case "MOV LEF":
+                        setTimeout(function () {
+                            i=3;
+                            box.style.transform = "rotateZ("+90*i+"deg)";
+                            if(left>30){
+                                left -=43;
+                                boxEle.style.left = left+"px";
+                            }
+                        },1000);
+                        break;
+                        //方向转向屏幕上面，向屏幕的上面移动一格
+                    case "MOV TOP":
+                        setTimeout(function () {
+                            i=0;
+                            box.style.transform = "rotateZ("+90*i+"deg)";
+                            if(top>30){
+                                top -=43;
+                                boxEle.style.top = top+"px";
+                            }
+                        },1000);
+                        break;
+                        //方向转向屏幕右侧，向屏幕的右侧移动一格
+                    case "MOV RIG":
+                        setTimeout(function () {
+                            i=1;
+                            box.style.transform = "rotateZ("+90*i+"deg)";
+                            if(left<387){
+                                left+=43;
+                                boxEle.style.left = left+"px";
+                            }
+                        },1000);
+                        break;
+                        //方向转向屏幕下面，向屏幕的下面移动一格
+                    case "MOV BOT":
+                        setTimeout(function () {
+                            i=2;
+                            box.style.transform = "rotateZ("+90*i+"deg)";
+                            if(top<387){
+                                top +=43;
+                                boxEle.style.top = top+"px";
+                            }
+                        },1000);
+                        break;
+                }
+            }
+            //拿到方块的方向值
+        function getdirecion(i) {
+            var direction=0;
+            if(i>=0){
+                direction = Math.abs(i%4)
+            }else {
+                if(Math.abs(i%4)===1){
+                    direction = 3;
+                }else if(Math.abs(i%4)===3){
+                    direction = 1;
+                }else {
+                    direction = Math.abs(i%4)
+                }
+
+            }
+            return direction;
+        }
+    }
+</script>
+</html>

@@ -564,7 +564,7 @@ li{
     width: 300px;
     float: left;
     margin-right: 10px;
-    height: 350px;
+    height: auto;
     background: white;
 }
 .content-footer .date .date-header{
@@ -626,7 +626,7 @@ li{
     box-sizing: border-box;
     border: 1px solid rgba(147,153,159,0.6);
     border-radius: 4px;
-    height: 350px;
+    height: auto;
     background: white;
     width: calc(100% - 310px);
 }

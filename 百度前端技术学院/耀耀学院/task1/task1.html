@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <style>
+        div{
+            width: 400px;
+            margin:0 auto;
+            margin-top: 200px;
+        }
+        label{
+            font-size: 20px;
+            font-family: 微软雅黑;
+        }
+        input{
+            height: 30px;
+            width: 250px;
+            vertical-align: top;
+            border-color: #22a3ff;
+        }
+        button{
+            width: 60px;
+            height: 35px;
+            background: #22a3ff;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+        <label>名称</label>
+        <input type="text" >
+        <button>验证 </button><br>
+        <span>必填，长度为4到16个字符</span>
+</div>
+</body>
+<script>
+    var txt = document.getElementsByTagName("input")[0];
+    var button = document.getElementsByTagName("button")[0];
+    var span = document.getElementsByTagName("span")[0];
+
+    button.onclick = function () {
+        var len = txt.value.length;
+        var sum = 0
+        for(var i=0;i<len;i++){
+            if(txt.value.charCodeAt()>255&&txt.value.charCodeAt()<0){
+                sum = sum+2;
+            }else {
+                sum=sum+1;
+            }
+        }
+        if(sum===0){
+            span.innerText = "内容不能为空";
+            span.style.color = "red";
+        }else if(sum>=4&&sum<=16){
+            span.innerText = "验证通过";
+            span.style.color = "#22a3ff";
+        }else {
+            span.innerText = "格式错误";
+            span.style.color = "red";
+        }
+
+    };
+
+
+</script>
+</html>

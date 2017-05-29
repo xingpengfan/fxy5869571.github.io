@@ -3,6 +3,7 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/小微学院/taskNine/styls.css" line="114" />
     <bookmark url="file://$PROJECT_DIR$/小微学院/taskNine/styls.css" line="360" />
+    <bookmark url="file://$PROJECT_DIR$/小微学院/taskEleven/taskEleven.html" line="40" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fa31ea-2350-4a30-861e-da7e729fae15" name="Default" comment="" />
@@ -19,145 +20,135 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styls.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskNine/styls.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="665" column="0" lean-forward="true" selection-start-line="665" selection-start-column="0" selection-end-line="665" selection-end-column="0" />
-              <folding>
-                <element signature="e#7414#7509#0" expanded="false" />
-                <element signature="e#7515#7543#0" expanded="false" />
-                <element signature="e#7551#7579#0" expanded="false" />
-                <element signature="e#7584#7612#0" expanded="false" />
-                <element signature="e#7661#7689#0" expanded="false" />
-                <element signature="e#7838#8015#0" expanded="false" />
-                <element signature="e#8473#8636#0" expanded="false" />
-                <element signature="e#8650#8760#0" expanded="false" />
-                <element signature="e#8779#8857#0" expanded="false" />
-                <element signature="e#8891#9005#0" expanded="false" />
-                <element signature="e#9023#9168#0" expanded="false" />
-                <element signature="e#9196#9356#0" expanded="false" />
-                <element signature="e#9542#9692#0" expanded="false" />
-                <element signature="e#9734#9777#0" expanded="false" />
-                <element signature="e#9796#9987#0" expanded="false" />
-                <element signature="e#10013#10108#0" expanded="false" />
-                <element signature="e#10137#10205#0" expanded="false" />
-                <element signature="e#10234#10325#0" expanded="false" />
-                <element signature="e#10350#10489#0" expanded="false" />
-                <element signature="e#10517#10585#0" expanded="false" />
-                <element signature="e#10613#10660#0" expanded="false" />
-                <element signature="e#10691#10779#0" expanded="false" />
-                <element signature="e#10811#10854#0" expanded="false" />
-                <element signature="e#10879#10973#0" expanded="false" />
-                <element signature="e#11001#11068#0" expanded="false" />
-                <element signature="e#11096#11120#0" expanded="false" />
-                <element signature="e#11147#11200#0" expanded="false" />
-                <element signature="e#11233#11332#0" expanded="false" />
-                <element signature="e#11362#11461#0" expanded="false" />
-                <element signature="e#11496#11663#0" expanded="false" />
-                <element signature="e#11679#11721#0" expanded="false" />
-                <element signature="e#11743#11944#0" expanded="false" />
-                <element signature="e#13147#13337#0" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="fengjing5.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing5.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styls.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskEight/styls.css">
+      <file leaf-file-name="firstPart.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/firstPart.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youhua2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/youhua2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youhua.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/youhua.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/global.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taskNine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskNine/taskNine.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="480" column="60" lean-forward="false" selection-start-line="480" selection-start-column="60" selection-end-line="480" selection-end-column="60" />
+            <state relative-caret-position="297">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
+                <element signature="e#215#396#0" expanded="false" />
+                <element signature="e#408#467#0" expanded="false" />
+                <element signature="e#482#506#0" expanded="false" />
+                <element signature="e#535#604#0" expanded="false" />
+                <element signature="e#632#678#0" expanded="false" />
+                <element signature="e#683#853#0" expanded="false" />
+                <element signature="e#862#900#0" expanded="false" />
+                <element signature="e#915#956#0" expanded="false" />
+                <element signature="e#962#1121#0" expanded="false" />
+                <element signature="e#1131#1174#0" expanded="false" />
+                <element signature="e#1186#1231#0" expanded="false" />
+                <element signature="e#1241#1340#0" expanded="false" />
+                <element signature="e#1354#1479#0" expanded="false" />
+                <element signature="e#1504#1532#0" expanded="false" />
+                <element signature="e#1549#1596#0" expanded="false" />
+                <element signature="e#1613#1666#0" expanded="false" />
+                <element signature="e#1684#1732#0" expanded="false" />
+                <element signature="e#1739#1801#0" expanded="false" />
+                <element signature="e#1809#1923#0" expanded="false" />
+                <element signature="e#1932#2035#0" expanded="false" />
+                <element signature="e#2050#2195#0" expanded="false" />
+                <element signature="e#2214#2286#0" expanded="false" />
+                <element signature="e#2319#2444#0" expanded="false" />
+                <element signature="e#2485#2630#0" expanded="false" />
+                <element signature="e#2639#2784#0" expanded="false" />
+                <element signature="e#2815#2946#0" expanded="false" />
+                <element signature="e#2989#3008#0" expanded="false" />
+                <element signature="e#3059#3131#0" expanded="false" />
+                <element signature="e#3176#3263#0" expanded="false" />
+                <element signature="e#3314#3338#0" expanded="false" />
+                <element signature="e#3393#3446#0" expanded="false" />
+                <element signature="e#3523#3549#0" expanded="false" />
+                <element signature="e#3557#3590#0" expanded="false" />
+                <element signature="e#3601#3674#0" expanded="false" />
+                <element signature="e#3688#3787#0" expanded="false" />
+                <element signature="e#3805#3877#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstarp/task1/task1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fengjing2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taskEleven.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/taskEleven.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding>
+                <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables.rnc" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/tables.rnc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="217" column="16" lean-forward="false" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rd.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/rd.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qq.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/qq.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-icon.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/login-icon.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icon-4.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-4.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icon-3.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-3.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icon-2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -166,8 +157,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -179,42 +171,79 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/小微学院/任务1.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskTwo.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskTwo/taskTwo.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskTwo/styls.css" />
-        <option value="$PROJECT_DIR$/小微学院/taskThree/taskThree.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskThree/styls.css" />
-        <option value="$PROJECT_DIR$/小微学院/taskFour.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskFour/taskFour.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskFour/styls.css" />
-        <option value="$PROJECT_DIR$/小微学院/taskFive/taskTwo.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskFive/styls2.css" />
-        <option value="$PROJECT_DIR$/小微学院/taskSix/taskSix.html" />
-        <option value="$PROJECT_DIR$/小微学院/taskSix/styls.css" />
-        <option value="$PROJECT_DIR$/小微学院/taskSeven/taskSeven.html" />
         <option value="$PROJECT_DIR$/小微学院/taskSeven/styls.css" />
         <option value="$PROJECT_DIR$/小微学院/taskEight/taskEight.html" />
         <option value="$PROJECT_DIR$/小微学院/taskEight/styls.css" />
+        <option value="$PROJECT_DIR$/小微学院/taskTen/taskTen.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskTen/styls.css" />
+        <option value="$PROJECT_DIR$/小斌学院/taskOne/taskOne.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskTwo/taskTwo.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskThree/taskThree.html" />
         <option value="$PROJECT_DIR$/小微学院/taskNine/taskNine.html" />
+        <option value="$PROJECT_DIR$/text.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskFive/styls2.css" />
         <option value="$PROJECT_DIR$/小微学院/taskNine/styls.css" />
+        <option value="$PROJECT_DIR$/小斌学院/html.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskFive/taskFive.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskSix.js" />
+        <option value="$PROJECT_DIR$/小斌学院/taskSix/taskSix.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskSeven/main.js" />
+        <option value="$PROJECT_DIR$/小斌学院/taskSeven/styls.css" />
+        <option value="$PROJECT_DIR$/小斌学院/taskSeven/taskSeven.html" />
+        <option value="$PROJECT_DIR$/小斌学院/taskEight/styls.css" />
+        <option value="$PROJECT_DIR$/小斌学院/taskEight/taskEight.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task1.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task2.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task3.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task4.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task5.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task6.html" />
+        <option value="$PROJECT_DIR$/js基础练习/task7.html" />
+        <option value="$PROJECT_DIR$/小微学院/322.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task1/task1.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task2/task2.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/tasktest.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/index.css" />
+        <option value="$PROJECT_DIR$/耀耀学院/index.js" />
+        <option value="$PROJECT_DIR$/耀耀学院/task2/task20.0.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task3/task3.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task4/task4.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task6/task6.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task6/task6.1.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task5/task5.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task6/task7.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/task7/task7.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskEleven/reset.css" />
+        <option value="$PROJECT_DIR$/小微学院/taskTwelve/twelve.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskTwelve/style.css" />
+        <option value="$PROJECT_DIR$/耀耀学院/js.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/backTop.html" />
+        <option value="$PROJECT_DIR$/耀耀学院/backTop/backTop.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskEleven/taskEleven.html" />
+        <option value="$PROJECT_DIR$/小微学院/taskEleven/style.css" />
+        <option value="$PROJECT_DIR$/bootstarp/task1/task1.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="y" value="141" />
-    <option name="width" value="1383" />
-    <option name="height" value="849" />
+    <option name="x" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -239,10 +268,6 @@
               <option name="myItemId" value="百度前端技术学院" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -254,112 +279,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taskSix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taskSeven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taskNine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taskNine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度前端技术学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小微学院" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taskEight" />
+              <option name="myItemId" value="js基础练习" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="百度前端技术学院">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="百度前端技术学院">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bootstarp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="task1">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="百度前端技术学院">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bootstarp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/myRepository/item" />
+    <property name="last_opened_file_path" value="E:/vueproject/myRepository/item" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\百度前端技术学院\小微学院\taskNine" />
-      <recent name="E:\百度前端技术学院\小微学院\taskFive" />
+      <recent name="E:\百度前端技术学院\小微学院\taskEleven" />
+      <recent name="E:\百度前端技术学院\bootstarp" />
+      <recent name="E:\百度前端技术学院\耀耀学院\backTop" />
+      <recent name="E:\百度前端技术学院\小微学院\taskTwelve" />
+      <recent name="E:\百度前端技术学院\小微学院\taskEight" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\百度前端技术学院\耀耀学院\backTop" />
+      <recent name="E:\百度前端技术学院\耀耀学院\task7" />
+      <recent name="E:\百度前端技术学院\耀耀学院" />
       <recent name="E:\百度前端技术学院\小微学院\taskFour" />
       <recent name="E:\百度前端技术学院\小微学院\taskTwo" />
-      <recent name="E:\百度前端技术学院\小微学院\taskOne" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,7 +373,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.js.html">
+    <configuration default="false" name="js.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/百度前端技术学院/耀耀学院/js.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -441,6 +443,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.js.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.js.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -465,24 +475,45 @@
       <workItem from="1494485318900" duration="4338000" />
       <workItem from="1494552146472" duration="13433000" />
       <workItem from="1494642386587" duration="24399000" />
+      <workItem from="1494667746268" duration="1269000" />
+      <workItem from="1494725328312" duration="11073000" />
+      <workItem from="1494832163517" duration="631000" />
+      <workItem from="1494907945968" duration="1152000" />
+      <workItem from="1494929772743" duration="1550000" />
+      <workItem from="1494995401698" duration="1977000" />
+      <workItem from="1495077365848" duration="6075000" />
+      <workItem from="1495163425779" duration="12000" />
+      <workItem from="1495175805545" duration="5634000" />
+      <workItem from="1495257537723" duration="17932000" />
+      <workItem from="1495333426986" duration="613000" />
+      <workItem from="1495438850395" duration="851000" />
+      <workItem from="1495505043717" duration="6983000" />
+      <workItem from="1495603400390" duration="7156000" />
+      <workItem from="1495680515872" duration="1447000" />
+      <workItem from="1495685780405" duration="8905000" />
+      <workItem from="1495772371523" duration="24575000" />
+      <workItem from="1495847723455" duration="17420000" />
+      <workItem from="1495937510050" duration="34144000" />
+      <workItem from="1496022091364" duration="14496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109558000" />
+    <option name="totallyTimeSpent" value="273453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="141" width="1383" height="849" extended-state="0" />
+    <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13460131" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18186583" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,351 +530,391 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/耀耀学院/task2/task2.1.html</url>
+          <line>257</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/耀耀学院/task2/task2.1.html</url>
+          <line>164</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/耀耀学院/task6/task6.1.html</url>
+          <line>114</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/小微学院/taskFive/styls2.css">
+    <entry file="file://$PROJECT_DIR$/JSCollege/test6/index.html" />
+    <entry file="file://$PROJECT_DIR$/耀耀学院/task7/task7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskFive/taskfive.html">
+    <entry file="file://$PROJECT_DIR$/耀耀学院/task6/task6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="189" column="7" lean-forward="false" selection-start-line="189" selection-start-column="7" selection-end-line="189" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskFour/taskFour.html">
+    <entry file="file://$PROJECT_DIR$/耀耀学院/task6/task6.1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3015#3154#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskFour/styls.css">
+    <entry file="file://$PROJECT_DIR$/小微学院/322.html" />
+    <entry file="file://$PROJECT_DIR$/耀耀学院/task5/task5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/activity2.jpg">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/icon-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/activity3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/firstPart.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/bgimage-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/activity4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/site-pic2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/global.gif">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/icon-2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/taskSeven.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskEight/taskEight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/styls.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/search.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/sevenPart-pic.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskOne/taskOne.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="118" column="7" lean-forward="false" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/wordB.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/site-pic2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/word.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/sixPart-pic.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/star.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/qq.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/share.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/mao3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/selectB.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/login-icon.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/select.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/icon-3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/moreB.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/bgimage-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/more.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/123.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/rd.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/login.png">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/tuite.gif">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/id.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/form.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/fileB.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/down.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/change.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/img/calendar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/activity1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/weibo.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/tuite.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/site-pic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/sixPart-pic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/sevenPart-pic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/rd-c.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/rd.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/qq.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/login-icon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskSeven/img/icon-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="217" column="16" lean-forward="false" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskEight/styls.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/小微学院/taskNine/taskNine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="480" column="60" lean-forward="false" selection-start-line="480" selection-start-column="60" selection-end-line="480" selection-end-column="60" />
+        <state relative-caret-position="621">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskTwelve/img/fengjing2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskTwelve/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#51#129#0" expanded="false" />
+            <element signature="e#132#182#0" expanded="false" />
+            <element signature="e#250#269#0" expanded="false" />
+            <element signature="e#294#319#0" expanded="false" />
+            <element signature="e#325#412#0" expanded="false" />
+            <element signature="e#424#522#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小微学院/taskNine/styls.css">
+    <entry file="file://$PROJECT_DIR$/小微学院/taskTwelve/twelve.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="665" column="0" lean-forward="true" selection-start-line="665" selection-start-column="0" selection-end-line="665" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7414#7509#0" expanded="false" />
-            <element signature="e#7515#7543#0" expanded="false" />
-            <element signature="e#7551#7579#0" expanded="false" />
-            <element signature="e#7584#7612#0" expanded="false" />
-            <element signature="e#7661#7689#0" expanded="false" />
-            <element signature="e#7838#8015#0" expanded="false" />
-            <element signature="e#8473#8636#0" expanded="false" />
-            <element signature="e#8650#8760#0" expanded="false" />
-            <element signature="e#8779#8857#0" expanded="false" />
-            <element signature="e#8891#9005#0" expanded="false" />
-            <element signature="e#9023#9168#0" expanded="false" />
-            <element signature="e#9196#9356#0" expanded="false" />
-            <element signature="e#9542#9692#0" expanded="false" />
-            <element signature="e#9734#9777#0" expanded="false" />
-            <element signature="e#9796#9987#0" expanded="false" />
-            <element signature="e#10013#10108#0" expanded="false" />
-            <element signature="e#10137#10205#0" expanded="false" />
-            <element signature="e#10234#10325#0" expanded="false" />
-            <element signature="e#10350#10489#0" expanded="false" />
-            <element signature="e#10517#10585#0" expanded="false" />
-            <element signature="e#10613#10660#0" expanded="false" />
-            <element signature="e#10691#10779#0" expanded="false" />
-            <element signature="e#10811#10854#0" expanded="false" />
-            <element signature="e#10879#10973#0" expanded="false" />
-            <element signature="e#11001#11068#0" expanded="false" />
-            <element signature="e#11096#11120#0" expanded="false" />
-            <element signature="e#11147#11200#0" expanded="false" />
-            <element signature="e#11233#11332#0" expanded="false" />
-            <element signature="e#11362#11461#0" expanded="false" />
-            <element signature="e#11496#11663#0" expanded="false" />
-            <element signature="e#11679#11721#0" expanded="false" />
-            <element signature="e#11743#11944#0" expanded="false" />
-            <element signature="e#13147#13337#0" expanded="false" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1496048535834" expanded="true" signature="46992:47010" ph="..." />
+            <marker date="1496048535834" expanded="true" signature="46992:47023" ph="..." />
+            <marker date="1496048535834" expanded="true" signature="46992:47038" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/耀耀学院/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/耀耀学院/backTop/images/tb_bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/vueproject/53a94f38000148ad00000000/慕课网 - JavaScript 回到顶部/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/耀耀学院/backTop/images/top_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/耀耀学院/backTop/backTop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstarp/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstarp/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/icon-4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/activity4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/activity3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/activity2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/activity1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/fengjing5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/global.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/firstPart.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/youhua2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/img/youhua.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/taskEleven.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小微学院/taskEleven/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#215#396#0" expanded="false" />
+            <element signature="e#408#467#0" expanded="false" />
+            <element signature="e#482#506#0" expanded="false" />
+            <element signature="e#535#604#0" expanded="false" />
+            <element signature="e#632#678#0" expanded="false" />
+            <element signature="e#683#853#0" expanded="false" />
+            <element signature="e#862#900#0" expanded="false" />
+            <element signature="e#915#956#0" expanded="false" />
+            <element signature="e#962#1121#0" expanded="false" />
+            <element signature="e#1131#1174#0" expanded="false" />
+            <element signature="e#1186#1231#0" expanded="false" />
+            <element signature="e#1241#1340#0" expanded="false" />
+            <element signature="e#1354#1479#0" expanded="false" />
+            <element signature="e#1504#1532#0" expanded="false" />
+            <element signature="e#1549#1596#0" expanded="false" />
+            <element signature="e#1613#1666#0" expanded="false" />
+            <element signature="e#1684#1732#0" expanded="false" />
+            <element signature="e#1739#1801#0" expanded="false" />
+            <element signature="e#1809#1923#0" expanded="false" />
+            <element signature="e#1932#2035#0" expanded="false" />
+            <element signature="e#2050#2195#0" expanded="false" />
+            <element signature="e#2214#2286#0" expanded="false" />
+            <element signature="e#2319#2444#0" expanded="false" />
+            <element signature="e#2485#2630#0" expanded="false" />
+            <element signature="e#2639#2784#0" expanded="false" />
+            <element signature="e#2815#2946#0" expanded="false" />
+            <element signature="e#2989#3008#0" expanded="false" />
+            <element signature="e#3059#3131#0" expanded="false" />
+            <element signature="e#3176#3263#0" expanded="false" />
+            <element signature="e#3314#3338#0" expanded="false" />
+            <element signature="e#3393#3446#0" expanded="false" />
+            <element signature="e#3523#3549#0" expanded="false" />
+            <element signature="e#3557#3590#0" expanded="false" />
+            <element signature="e#3601#3674#0" expanded="false" />
+            <element signature="e#3688#3787#0" expanded="false" />
+            <element signature="e#3805#3877#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstarp/task1/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

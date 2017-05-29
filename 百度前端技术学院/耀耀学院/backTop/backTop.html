@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .img{
+            width: 1190px;
+            margin: 0 auto;
+        }
+        .btn{
+            display: none;
+            width: 40px;
+            height: 40px;
+            background-image: url("images/top_bg.png");
+            background-repeat: no-repeat;
+            border: none;
+            position: fixed;
+            bottom: 20px;
+            right: 200px;
+        }
+        .btn:hover{
+            background: url("images/top_bg.png") no-repeat left -40px;
+        }
+    </style>
+</head>
+<body>
+<div class="img">
+    <img src="images/tb_bg.jpg" >
+</div>
+    <span class="btn"></span>
+</body>
+<script>
+    window.onload=function () {
+        var btn = document.getElementsByClassName("btn")[0];
+        var times = null;
+        var clientHeight =document.documentElement.clientHeight;
+        var isTop = true;
+        window.onscroll = function () {
+                if(!isTop){
+                    clearInterval(times);
+                }
+                isTop = false;
+            if(document.body.scrollTop>=clientHeight){
+                btn.style.display = "block"
+            }else {
+                btn.style.display = "none"
+            }
+        }
+        btn.onclick = function () {
+        times = setInterval(function () {
+                document.body.scrollTop -=200;
+            if (document.body.scrollTop===0){
+                clearInterval(times);
+            }
+            isTop = true;
+            },50)
+        }
+    }
+</script>
+</html>

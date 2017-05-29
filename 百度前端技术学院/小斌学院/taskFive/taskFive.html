@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskFive</title>
+    <style>
+
+        button{
+            border: none;
+            background: #22a3ff;
+            color: white;
+            height: 25px;
+            font-family: "Microsoft JhengHei";
+            border-radius: 3px;
+        }
+        ul{
+            margin: 0;
+            padding:0;
+        }
+        li{
+            width: 20px;
+            margin: 5px;
+            background: red;
+            display: inline-block;
+            color: white;
+            font-size: 0;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" id="inNum">
+    <button id="leftNum">左侧进</button>
+    <button id="rightNum">右侧进</button>
+    <button id="leftOutNum">左侧出</button>
+    <button id="rightOutNum">右侧出</button>
+    <button id="sortData">排序</button>
+    <ul id="outNum"></ul>
+</div>
+
+<script>
+    var inNum = document.getElementById("inNum");
+    var leftNum = document.getElementById("leftNum");
+    var rightNum = document.getElementById("rightNum");
+    var leftOutNum = document.getElementById("leftOutNum");
+    var rightOutNum = document.getElementById("rightOutNum");
+    var outNum = document.getElementById("outNum");
+    var sortData = document.getElementById("sortData");
+    sortData.onclick = function () {
+        resort();
+    }
+    function resort(){
+        var arr = document.getElementsByTagName("li");
+        console.log(arr);
+        var arg = [].slice.call(arr);
+        console.log(arg);
+        var len = arg.length;
+        if(len!=0){
+            arg.sort(function(arg1, arg2){
+                var value1 = arg1.innerText;
+                var value2 = arg2.innerText;
+                return value1 - value2;
+            });
+            for(var i=0; i<len; i++){
+                outNum.appendChild(arg[i]);
+            }
+        }else{
+            alert("没有添加元素，无法排序！");
+        }
+    }
+
+    leftNum.onclick = function () {
+        insert("left");
+    }
+    rightNum.onclick = function () {
+        insert("right");
+    };
+    leftOutNum.onclick = function () {
+        del(-1,"left")
+    }
+    rightOutNum.onclick = function () {
+        del(-1,"right")
+    }
+    outNum.onclick = function () {
+        del(event.target);
+    }
+    function insert(direction) {
+        var li = document.getElementsByTagName("li");
+        if(inNum.value === ""){
+            alert("请输入数字");
+            inNum.focus();
+        }else if(isNaN(inNum.value)||inNum.value>100||inNum.value<10){
+            alert("请输入10--100的合法数字");
+            inNum.value="";
+            inNum.focus();
+        }else if(li.length<60){
+            var li = document.createElement("li");
+            li.innerText = inNum.value;
+            li.style.height = inNum.value+"px";
+            if(direction==="left"){
+                outNum.insertBefore(li,outNum.firstChild);
+
+            }else if(direction==="right"){
+                outNum.appendChild(li);
+                inNum.value="";
+                inNum.focus();
+            }
+        } else{
+           alert("队列已满")
+        }
+    }
+    function del(node,direction) {
+        if(outNum.children.length<=0){
+            alert("对列为空");
+            return;
+        } else {
+            if(direction==="left"){
+               delNum =outNum.firstChild.style.height.split("px");
+               alert("删除的数字为："+delNum[0]);
+                outNum.removeChild(outNum.firstChild);
+            }else if(direction==="right"){
+
+                alert("删除的数字为："+outNum.lastChild.style.height.split("px")[0])
+                outNum.removeChild(outNum.lastChild);
+            }else {
+                alert("删除的数字为："+outNum.removeChild(node).innerText);
+            }
+        }
+    }
+</script>
+</body>
+</html>

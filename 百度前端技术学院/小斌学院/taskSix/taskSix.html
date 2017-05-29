@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskFive</title>
+    <style>
+        body .content{
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 300px;
+        }
+        textarea{
+            width: 260px;
+            display: block;
+            margin-bottom: 20px;
+        }
+        input{
+            margin-left: -10px;
+            width: 220px;
+            margin-top: 20px;
+        }
+        button{
+            border: none;
+            background: #22a3ff;
+            color: white;
+            height: 25px;
+            font-family: "Microsoft JhengHei";
+            border-radius: 3px;
+        }
+        ul{
+            margin: 0;
+            padding:0;
+        }
+        li{
+            width: 35px;
+            text-align: center;
+            line-height: 40px;
+            height: 40px;
+            margin: 5px;
+            background: red;
+            display: inline-block;
+            color: white;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        .check{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <textarea id="inNum"></textarea>
+    <button id="leftNum">左侧进</button>
+    <button id="rightNum">右侧进</button>
+    <button id="leftOutNum">左侧出</button>
+    <button id="rightOutNum">右侧出</button>
+    <button id="sortData">排序</button>
+    <div class="check">
+        <input type="text" id="soucre">
+        <button id="check">查询</button>
+    </div>
+
+    <ul id="outNum"></ul>
+</div>
+
+<script>
+    var inNum = document.getElementById("inNum");
+    var leftNum = document.getElementById("leftNum");
+    var rightNum = document.getElementById("rightNum");
+    var leftOutNum = document.getElementById("leftOutNum");
+    var rightOutNum = document.getElementById("rightOutNum");
+    var outNum = document.getElementById("outNum");
+    var sortData = document.getElementById("sortData");
+    var soucre = document.getElementById("soucre");
+    var check = document.getElementById("check");
+    check.onclick = function () {
+        var arr2 = document.getElementsByTagName("li");
+        for(var i=0;i<arr2.length;i++){
+            if(arr2[i].innerText.indexOf(soucre.value) > -1){
+                arr2[i].style.background = "blue";
+                arr2[i].style.color = "yellow";
+            }else {
+                arr2[i].style.background = "red";
+                arr2[i].style.color = "#ffffff";
+            }
+        }
+    }
+    sortData.onclick = function () {
+        resort();
+    }
+    function resort(){
+        var arr = document.getElementsByTagName("li");
+        console.log(arr);
+        var arg = [].slice.call(arr);
+        console.log(arg);
+        var len = arg.length;
+        if(len!=0){
+            arg.sort(function(arg1, arg2){
+                var value1 = arg1.innerText;
+                var value2 = arg2.innerText;
+                return value1 - value2;
+            });
+            for(var i=0; i<len; i++){
+                outNum.appendChild(arg[i]);
+            }
+        }else{
+            alert("没有添加元素，无法排序！");
+        }
+    }
+
+    leftNum.onclick = function () {
+        insert("left");
+    }
+    rightNum.onclick = function () {
+        insert("right");
+    };
+    leftOutNum.onclick = function () {
+        del(-1,"left")
+    }
+    rightOutNum.onclick = function () {
+        del(-1,"right")
+    }
+    outNum.onclick = function () {
+        del(event.target);
+    }
+    function insert(direction) {
+        var li = document.getElementsByTagName("li");
+        if(li.length<60){
+            var li = document.createElement("li");
+            li.innerText = inNum.value;
+            if(direction==="left"){
+                outNum.insertBefore(li,outNum.firstChild);
+
+            }else if(direction==="right"){
+                outNum.appendChild(li);
+                inNum.value="";
+                inNum.focus();
+            }
+        } else{
+            alert("队列已满")
+        }
+    }
+    function del(node,direction) {
+        if(outNum.children.length<=0){
+            alert("对列为空");
+            return;
+        } else {
+            if(direction==="left"){
+                delNum =outNum.firstChild.style.height.split("px");
+                alert("删除的数字为："+delNum[0]);
+                outNum.removeChild(outNum.firstChild);
+            }else if(direction==="right"){
+
+                alert("删除的数字为："+outNum.lastChild.style.height.split("px")[0])
+                outNum.removeChild(outNum.lastChild);
+            }else {
+                alert("删除的数字为："+outNum.removeChild(node).innerText);
+            }
+        }
+    }
+</script>
+</body>

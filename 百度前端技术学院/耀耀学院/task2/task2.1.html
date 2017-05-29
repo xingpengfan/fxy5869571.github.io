@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <style>
+        body{
+            background: black;
+        }
+        .content{
+            box-sizing: border-box;
+            border-radius: 10px;
+            width: 500px;
+            margin:0 auto;
+            margin-top: 200px;
+            background: white;
+            padding: 50px;
+        }
+        .content div{
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 20px;
+            font-family: 微软雅黑;
+        }
+        input{
+            height: 30px;
+            padding-left: 10px;
+            line-height: 30px;
+            width: 340px;
+            vertical-align: top;
+            border-radius: 6px;
+            outline: none;
+        }
+        .border-error{
+            border-color: #ff4b5a;
+        }
+        .border-success{
+            border-color: #62b900;
+        }
+        .text-errorr{
+            color: #ff4b5a ;
+        }
+        .text-success{
+            color: #62b900 ;
+        }
+        button{
+            float: right;
+            margin-right: 5px;
+            width: 60px;
+            height: 35px;
+            background: #22a3ff;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+        span{
+            color: #ccc;
+        }
+        .left{
+            margin-left: -40px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="content">
+    <form>
+        <div>
+            <label>名称</label>
+            <input type="text" ><br>
+            <span></span>
+        </div>
+
+        <div>
+            <label>密码</label>
+            <input type="password" ><br>
+            <span></span>
+        </div>
+        <div>
+            <label class="left">重复密码</label>
+            <input type="password" ><br>
+            <span></span>
+        </div>
+        <div>
+            <label>邮箱</label>
+            <input type="email" ><br>
+            <span></span>
+        </div>
+        <div>
+            <label>手机</label>
+            <input type="text" ><br>
+            <span></span>
+        </div>
+        <button >提交 </button><br>
+    </form>
+</div>
+</body>
+<script>
+    window.onload = function () {
+        var txtEle = document.getElementsByTagName("input");
+        var buttons = document.getElementsByTagName("button")[0];
+        var spanEle = document.getElementsByTagName("span");
+        var FOCUS_SHOW_INFO = [
+            '必填，长度为4-16个字符',
+            '必填，长度为6-12个字符',
+            '必填，必须与前一项输入一致',
+            '选填，例如：name@example.com',
+            '选填，例如：188xxxx1234'
+        ];
+        var BLUR_DO_ACTION = [
+            validateName,
+            validatePasswd1,
+            validatePasswd2,
+            validateEmail,
+            validatePhone,
+        ];
+        var isValidateName = false;
+        var isValidateNamePassword2 = false;
+        var isValidateNamePassword1 = false;
+        Array.prototype.forEach.call(txtEle,function (e,i) {
+            //得到焦点显示必填信息的方法
+            e.addEventListener("focus",function () {
+                shouResult(txtEle[i],spanEle[i],FOCUS_SHOW_INFO[i],"none");
+            });
+            //失去焦点验证输入框
+            e.addEventListener("blur", function () {
+                if(BLUR_DO_ACTION[i]===validatePasswd2){
+                    return BLUR_DO_ACTION[i](txtEle[i-1],txtEle[i],spanEle[i]);
+                }
+                return BLUR_DO_ACTION[i](txtEle[i],spanEle[i]);
+            });
+        });
+
+//验证用户名是否合法
+        function validateName(inputEle,outputEle) {
+            var MAX_LEN = 16;
+            var MIN_LEN = 4;
+            var text = inputEle.value
+            var len = getNameLen(text);
+            var message =validateLen(len,MAX_LEN,MIN_LEN);
+            if(message){
+                shouResult(inputEle,outputEle,message,"error");
+            }else {
+                shouResult(inputEle,outputEle,"格式正确","success");
+                isValidateName = true;
+            }
+            return isValidateName;
+        }
+//验证密码格式是否正确
+        function validatePasswd1(inputEle,outputEle) {
+            var MAX_LEN = 12;
+            var MIN_LEN = 6;
+            var len = inputEle.value.length;
+            var message =validateLen(len,MAX_LEN,MIN_LEN);
+            if(message){
+                shouResult(inputEle,outputEle,message,"error");
+            }else {
+                shouResult(inputEle,outputEle,"格式正确","success");
+                isValidateNamePassword1 = true;
+            }
+        }
+//验证重复密码是否一致
+        function validatePasswd2(inputEle1,inputEle2,outputEle) {
+            if(inputEle1.value.length===0){
+                shouResult(inputEle2,outputEle,"前一项不能为空","error");
+            }else if(inputEle1.value===inputEle2.value){
+                shouResult(inputEle2,outputEle,"密码一致","success");
+                isValidateNamePassword2 = true;
+            }else {
+                shouResult(inputEle2,outputEle,"密码不一致","error");
+            }
+        }
+//验证邮箱格式是否正确
+        function validateEmail(inputEle,outputEle) {
+            var reg = /^[0-9a-zA-Z]+@(([0-9a-zA-Z]+)[.])+[a-z]{2,4}$/i;
+
+            if(reg.test(inputEle.value)){
+                shouResult(inputEle,outputEle,"邮箱格式正确","success");
+            }else if(inputEle.value.length!==0){
+                shouResult(inputEle,outputEle,"邮箱格式错误","error");
+            }
+        }
+//验证手机号是否正确
+        function validatePhone(inputEle,outputEle) {
+            var reg =/^1\d{10,}$/;
+            if(reg.test(inputEle.value)){
+                shouResult(inputEle,outputEle,"手机号格式正确","success");
+            }else if(inputEle.value.length!==0){
+                shouResult(inputEle,outputEle,"手机号请输入11位数字","error");
+            }
+        }
+//显示验证结果
+        function shouResult(inputElem,outputElem,msg,result) {
+            showMsg(outputElem,msg);
+            changStyle(inputElem,outputElem,result);
+        }
+        //显示验证结果文本
+        function  showMsg(outputElem,msg) {
+            outputElem.innerText = msg;
+        }
+        function changStyle(inputElem,outputElem,result) {
+            switch (result) {
+                case 'success':
+                    inputElem.className = 'border-success';
+                    outputElem.className = 'text-success';
+                    break;
+                case 'error':
+                    inputElem.className = 'border-error';
+                    outputElem.className = 'text-errorr';
+                    break;
+                case 'none':
+                    inputElem.className = '';
+                    outputElem.className = '';
+                    break;
+            }
+        }
+//验证长度是否合法
+        function validateLen(len,max,min) {
+            var message;
+            if(len===0){
+                message = "该项不能为空"
+            }else if(len > max){
+                message = "该项最多为"+max+"位";
+            }else if(len < min){
+                message = "该项最少为"+min+"位";
+            }
+            return message;
+        }
+        //拿到用户名的长度
+        function getNameLen (str) {
+            var enLen = 0;
+            var zhLen = 0;
+            for (var ch of str) {
+                if (isASCII(ch)) {
+                    enLen++;
+                } else {
+                    zhLen++;
+                }
+            }
+
+            return enLen + zhLen * 2;
+        }
+//验证字符不是中文
+        function isASCII (c) {
+            return c.codePointAt(0) <= 0xFF;
+        }
+        //按钮提交事件
+        buttons.addEventListener("click",function () {
+            if(isValidateName&&isValidateNamePassword2&&isValidateNamePassword1){
+                alert("提交成功");
+            }else {
+                alert("提交失败");
+            }
+        });
+    }
+
+
+</script>
+</html>

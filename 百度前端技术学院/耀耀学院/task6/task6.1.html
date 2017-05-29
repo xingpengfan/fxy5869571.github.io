@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6</title>
+    <style>
+        h1 {
+            font-weight:normal;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            position: relative;
+            height: 1080px;
+            z-index: 2;
+            transition: display 2s;
+        }
+        .shade{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -30px;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+        }
+        .dialog{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 400px;
+            height: 300px;
+            background: white;
+            z-index: 50;
+            cursor: move;
+        }
+        .header{
+            background: #ccc;
+            text-align: center;
+        }
+        .content{
+            width: 400px;height: 190px;
+            padding: 10px;
+        }
+        .button-group{
+            float: right;
+            margin-right: 20px;
+        }
+        button{
+            border: none;
+            background: #1475ff;
+            color: white;
+            font-family:黑体;
+            font-size: 18px;
+            line-height: 30px;
+            width: 70px;
+            border-radius: 4px;
+        }
+        .showDialog{
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 60px;
+            margin-left: 800px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="dialog">
+        <div class="header">
+            <h1>标题</h1>
+        </div>
+        <div class="content">
+            <p>拖住标题可实现移动<br>
+                点击浮出层以外部分或按钮可关闭
+            </p>
+        </div>
+        <div class="button-group">
+            <button class="confirm" >确定</button>
+            <button class="cancel">取消</button>
+        </div>
+    </div>
+    <div class="shade"></div>
+</div>
+<button class="showDialog">弹框</button>
+</body>
+<script>
+    window.onload = function () {
+        var confirm = document.getElementsByTagName("button")[0];
+        var cancel = document.getElementsByTagName("button")[1];
+        var showDialog = document.getElementsByTagName("button")[2];
+        var dialog =document.getElementsByClassName("dialog")[0];
+        var shade = document.getElementsByClassName("shade")[0];
+        var main = document.getElementsByClassName("main")[0]
+        showDialog.onclick = function () {
+            show(main,dialog,shade);
+        }
+        cancel.onclick = function () {
+            hide(main,dialog,shade);
+        }
+        confirm.onclick= function () {
+            hide(main,dialog,shade)
+        }
+        shade.onclick = function () {
+          hide(main,dialog,shade);
+        }
+        function show(node,node1,node2) {
+            node.style.display = "block";
+            node1.style.display = "block";
+            node2.style.display = "block";
+        }
+        function hide(node,node1,node2) {
+            node.style.display = "none";
+            node1.style.display = "none";
+            node2.style.display = "none";
+        }
+        //拖动函数
+        //定义参数
+        var left = 0;
+        var top = 0;
+        var currentX = 0;
+        var currentY =0;
+        var ismouseDown = false;
+        function getPosition(node,key) {
+            return document.defaultView.getComputedStyle(node, null)[key];
+        }
+        function drag(target) {
+            left = getPosition(target,"left");
+            top = getPosition(target,"top");
+            //鼠标按下记录鼠标所在的位置
+            target.onmousedown = function (evt) {
+                ismouseDown = true;
+                evt.preventDefault();
+                currentX = evt.clientX;
+                currentY = evt.clientY;
+            };
+            //记录弹框现在的位置
+            target.onmouseup = function () {
+                ismouseDown = false;
+                left = getPosition(target,"left");
+                top = getPosition(target,"top");
+            };
+            //鼠标移动更新位置
+            target.onmousemove = function (evt) {
+                if(ismouseDown){
+                    var nowX = evt.clientX;
+                    var nowY = evt.clientY;
+                    var disX = nowX - currentX;
+                    var disY = nowY -currentY;
+                    target.style.left = parseInt(left) + disX + 'px';
+                    target.style.top = parseInt(top) + disY + 'px';
+                }
+            }
+        }
+        drag(dialog);
+    }
+
+</script>
+</html>

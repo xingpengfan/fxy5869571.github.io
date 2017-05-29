@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task4</title>
+    <style>
+        body{
+            background: black;
+        }
+        .container{
+            padding: 50px;
+            position: relative;
+            width: 500px;
+             margin: 0 auto;
+            margin-top: 150px;
+            background: white;
+        }
+        table{
+            border-collapse: collapse;
+
+        }
+        td{
+            width: 40px;
+            height: 40px;
+        }
+        .top{
+        }
+        p{
+           padding-bottom: 5px;
+        }
+        span{
+            display: inline-block;
+            width: 43px;
+            text-align: center;
+        }
+        .left{
+            position: absolute;
+            top: 70px;
+            left: 30px;
+        }
+        .table-wrapper{
+            position: relative;
+            margin-bottom: 10px;
+        }
+        #box{
+            position: absolute;
+            left: 1px;
+            top: 1px;
+            width: 23px;
+            height: 23px;
+            border: 10px solid;
+            border-color:  blue transparent transparent transparent;
+            background: red;
+        }
+        input{
+            margin-left: 50px;
+            width: 250px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        button{
+            height: 30px;
+            width: 50px;
+            border: none;
+            background: #1475ff;
+            color: white;
+        }
+        .dail{
+            font-size: 14px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+    </div>
+    <div class="table-wrapper">
+        <div class="table">
+            <table border="1" >
+                <div id="box"></div>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="left">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+    </div>
+    <input type="text">
+    <button>执行</button>
+    <p class="dail">输入“GO”向前移动一格 输入“TUN LEF”左转 输入“TUN RIG”右转 输入“TUN BAC”向后转</p>
+</div>
+</body>
+<script>
+    window.onload = function () {
+
+        var boxEle= document.getElementById("box");
+        var text = document.getElementsByTagName("input")[0];
+        var btnEle = document.getElementsByTagName("button")[0];
+        var i = 0;
+            btnEle.onclick = function () {
+                switch (text.value){
+                    case "TUN LEF":
+                        i--;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        console.log(i)
+                        break;
+                    case "TUN RIG":
+                        i++;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        break;
+                    case "TUN BAC":
+                        i=i-2;
+                        box.style.transform = "rotateZ("+90*i+"deg)";
+                        break;
+                    case "GO":
+                    function getdirecion() {
+                        var direction=0;
+                        if(i>=0){
+                            direction = Math.abs(i%4)
+                        }else {
+                            if(Math.abs(i%4)===1){
+                                direction = 3;
+                            }else if(Math.abs(i%4)===3){
+                                direction = 1;
+                            }else {
+                                direction = Math.abs(i%4)
+                            }
+
+                        }
+                        return direction;
+                    }
+                        console.log(getdirecion())
+                        var left = Number(boxEle.style.left.replace('px', ''));
+                        var top = Number(boxEle.style.top.replace('px', ''));
+                        switch (getdirecion()){
+                            case 0:
+                                if(top>30){
+                                    top -=43;
+                                    boxEle.style.top = top+"px";
+                                }
+                                break;
+                            case 1:
+                                if(left<387){
+                                    left+=43;
+                                    boxEle.style.left = left+"px";
+                                }
+                                break;
+                            case 2:
+                                if(top<387){
+                                    top +=43;
+                                    boxEle.style.top = top+"px";
+                                }
+                                break;
+                            case 3:
+                                if(left>30){
+                                    left -=43;
+                                    boxEle.style.left = left+"px";
+                                }
+                        }
+                }
+            }
+
+    }
+
+</script>
+</html>

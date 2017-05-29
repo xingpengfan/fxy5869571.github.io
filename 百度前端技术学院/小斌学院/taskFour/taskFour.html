@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskFour</title>
+    <style>
+
+        button{
+            border: none;
+            background: #22a3ff;
+            color: white;
+            height: 25px;
+            font-family: "Microsoft JhengHei";
+            border-radius: 3px;
+        }
+        ul{
+            margin: 0;
+            padding:0;
+        }
+        li{
+            font-size: 20px;
+            margin: 5px;
+            background: red;
+            display: inline-block;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" id="inNum">
+    <button id="leftNum">左侧进</button>
+    <button id="rightNum">右侧进</button>
+    <button id="leftOutNum">左侧出</button>
+    <button id="rightOutNum">右侧出</button>
+    <ul id="outNum"></ul>
+</div>
+
+<script>
+    var inNum = document.getElementById("inNum");
+    var leftNum = document.getElementById("leftNum");
+    var rightNum = document.getElementById("rightNum");
+    var leftOutNum = document.getElementById("leftOutNum");
+    var rightOutNum = document.getElementById("rightOutNum");
+    var outNum = document.getElementById("outNum");
+    leftNum.onclick = function () {
+        insert("left");
+    }
+    rightNum.onclick = function () {
+        insert("right");
+    };
+    leftOutNum.onclick = function () {
+        del(-1,"left")
+    }
+    rightOutNum.onclick = function () {
+        del(-1,"right")
+    }
+    outNum.onclick = function () {
+        del(event.target);
+    }
+    function insert(direction) {
+        if(inNum.value === ""){
+            alert("请输入数字");
+            inNum.focus();
+        }else if(isNaN(inNum.value)||inNum.value>100||inNum.value<10){
+                alert("请输入10--100的合法数字");
+                inNum.value="";
+                inNum.focus();
+        }else{
+            var li = document.createElement("li");
+            li.innerHTML = inNum.value;
+            if(direction==="left"){
+                outNum.insertBefore(li,outNum.firstChild);
+                inNum.value="";
+            }else if(direction==="right"){
+                outNum.appendChild(li);
+                inNum.value="";
+            }
+        }
+    }
+    function del(node,direction) {
+        if(outNum.length<=0){
+            alert("对列为空");
+            return false;
+        } else {
+            if(direction==="left"){
+                alert("删除的数字为："+outNum.firstChild.innerText)
+                outNum.removeChild(outNum.firstChild);
+            }else if(direction==="right"){
+                alert("删除的数字为："+outNum.lastChild.innerText)
+                outNum.removeChild(outNum.lastChild);
+            }else {
+                alert("删除的数字为："+outNum.removeChild(node).innerText);
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskseven</title>
+    <link rel="stylesheet" href="styls.css" type="text/css">
+</head>
+<body>
+<div id="root">
+    <div class="child1">12
+        <div class="child2">fan
+            <div class="child3">xing</div>
+            <div class="child3">yu</div>
+            <div class="child3">da</div>
+        </div>
+        <div class="child2">ge
+            <div class="child3">qian</div>
+            <div class="child3">qiu</div>
+        </div>
+        <div class="child2">wan
+            <div class="child3">dai</div>
+            <div class="child3">yi</div>
+        </div>
+    </div >
+    <div class="child1">tong
+        <div class="child2">jiang
+            <div class="child3">hu</div>
+            <div class="child3">haha</div>
+        </div>
+        <div class="child2">haha
+            <div class="child3">last</div>
+            <div class="child3">is</div>
+        </div>
+        <div class="child2">best
+            <div class="child3">hello</div>
+            <div class="child3">word</div>
+        </div>
+    </div>
+    <div class="child1">if
+        <div class="child2">you
+            <div class="child3">hava</div>
+            <div class="child3">a</div>
+        </div>
+        <div class="child2">gream
+            <div class="child3">you</div>
+            <div class="child3">are</div>
+        </div>
+        <div class="child2">an
+            <div class="child3">best</div>
+            <div class="child3">peo</div>
+        </div>
+    </div>
+</div>
+<div class="button">
+    <button>先序遍历</button>
+    <button>后续遍历</button>
+    <input type="text" id="insearch">
+    <button>查询</button>
+</div>
+
+<script>
+    var root = document.getElementById("root");
+    var bodys = document.getElementsByTagName("body");
+    var firstButton = document.getElementsByTagName("button")[0];
+    var afterButton = document.getElementsByTagName("button")[1];
+    var inSearch = document.getElementById("insearch");
+    var search = document.getElementsByTagName("button")[2];
+    search.onclick = function () {
+        reset();
+        laferOrder(root);
+        searchText();
+    }
+    firstButton.onclick = function () {
+        reset();
+        firstOrder(root);
+        console.log(list);
+        show();
+    };
+    afterButton.onclick = function () {
+        reset();
+        laferOrder(root);
+        show();
+    }
+    list = [];
+    function firstOrder(node) {
+        if(node){
+            list.push(node);
+           for (var j=0;j<node.children.length;j++){
+               firstOrder(node.children[j]);
+           }
+        }
+    };//前序数组
+    function laferOrder(node) {
+        if(node!==null){
+            for (var j=0;j<node.children.length;j++){
+                firstOrder(node.children[j]);
+            }
+            list.push(node);
+        }
+    }//后序数组
+    //显示遍历过程
+    function show() {
+        var i = 0;
+        list[i].style.background = "red";
+        var time = setInterval(function () {
+            i++;
+            if(i<list.length){
+                list[i].style.background = "red";
+                list[i-1].style.background = "#ffffff";
+            } else {
+                clearInterval(time);
+                list[list.length-1].style.background = "#ffffff";
+            }
+        },300);
+    }
+    function reset() {
+        list=[];
+        divs = document.getElementsByTagName("div");
+        for(i=0;i<divs.length;i++){
+            divs[i].style.background = "#ffffff";
+        }
+    }//初始化
+    //输入框与div里的内容匹配查询，如果div的内容包含输入框的值，背景颜色变蓝；
+    //思路：拿到所有div,遍历匹配，用数字的indexOf函数，具体这么写我还要想想
+    function searchText() {
+        var i = 0;
+        var time = setInterval(function () {
+            i++;
+            var chang = []
+            if(i<list.length){
+                list[i+1].style.background = "red";
+                if(inSearch.value&&list[i].firstChild.nodeValue.indexOf(inSearch.value)>-1){
+                    list[i].style.background = "green";
+                    alert("找到了："+inSearch.value);
+                }else {
+                    list[i].style.background = "#ffffff";
+                }
+            } else {
+                clearInterval(time);
+                list[list.length-1].style.background = "#ffffff";
+            }
+        },500)
+    }
+</script>
+</body>
+</html>

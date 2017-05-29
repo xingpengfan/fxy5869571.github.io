@@ -1,0 +1,260 @@
+<!!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <style>
+        body{
+            background: black;
+        }
+        .content{
+            box-sizing: border-box;
+            border-radius: 10px;
+            width: 500px;
+            margin:0 auto;
+            margin-top: 200px;
+            background: white;
+            padding: 50px;
+        }
+        .content div{
+            margin-bottom: 20px;
+            }
+        label{
+            font-size: 20px;
+            font-family: 微软雅黑;
+        }
+        input{
+            height: 30px;
+            width: 350px;
+            vertical-align: top;
+            border-radius: 6px;
+            outline: none;
+        }
+        .error{
+            border-color: #ff4b5a;
+        }
+        .correct{
+            border-color: #62b900;
+        }
+        button{
+            float: right;
+            margin-right: 5px;
+            width: 60px;
+            height: 35px;
+            background: #22a3ff;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+        span{
+            display:none;
+            color: #ccc;
+        }
+        .left{
+            margin-left: -40px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="content">
+    <form>
+        <div>
+            <label>名称</label>
+            <input type="text" onblur="username()" onfocus="displayusername()"><br>
+            <span>*必填，用户名位4到16位</span>
+        </div>
+
+        <div>
+            <label>密码</label>
+            <input type="password" onfocus="displayusername2()" onblur="password()"><br>
+            <span>*必填，密码为4到16位可用字符</span>
+        </div>
+        <div>
+            <label class="left">重复密码</label>
+            <input type="password" onfocus="displayusername3()" onblur="password1()"><br>
+            <span>*两次密码必须一致</span>
+        </div>
+        <div>
+            <label>邮箱</label>
+            <input type="email" onfocus="displayusername4()" onblur="email()"><br>
+            <span>*必填，用户名位4到16位</span>
+        </div>
+        <div>
+            <label>手机</label>
+            <input type="text" onfocus="displayusername5()" onblur="phone()"><br>
+            <span>*手机号为11位数字</span>
+        </div>
+        <button onclick="yanzheng()">提交 </button><br>
+
+    </form>
+
+</div>
+</body>
+<script>
+    var txt1 = document.getElementsByTagName("input")[0];
+    var txt2 = document.getElementsByTagName("input")[1];
+    var txt3 = document.getElementsByTagName("input")[2];
+    var txt4 = document.getElementsByTagName("input")[3];
+    var txt5 = document.getElementsByTagName("input")[4];
+    var button = document.getElementsByTagName("button")[0];
+    var span1 = document.getElementsByTagName("span")[0];
+    var span2 = document.getElementsByTagName("span")[1];
+    var span3 = document.getElementsByTagName("span")[2];
+    var span4 = document.getElementsByTagName("span")[3];
+    var span5 = document.getElementsByTagName("span")[4];
+
+    //用户必填项可见
+    function displayusername() {
+        span1.style.display = "block"
+    }
+    //密码必填项可见
+    function displayusername2() {
+        span2.style.display = "block"
+    }
+    //重复密码必填项可见
+    function displayusername3() {
+        span3.style.display = "block"
+    }
+    //邮箱必填项可见
+    function displayusername4() {
+        span4.style.display = "block"
+    }
+    //手机必填项可见
+    function displayusername5() {
+        span5.style.display = "block"
+    }
+    //用户名验证
+    var isUsername = false
+    function username() {
+        var len = txt1.value.length;
+        var sum = 0
+        for(var i=0;i<len;i++){
+            if(txt1.value.charCodeAt()>255&&txt1.value.charCodeAt()<0){
+                sum = sum+2;
+            }else {
+                sum=sum+1;
+            }
+        }
+        if(sum===0){
+            span1.innerText = "内容不能为空";
+            span1.style.color = "red";
+            txt1.className = "error";
+            isUsername = false;
+        }else if(sum>=4&&sum<=16){
+            span1.innerText = "用户名可用";
+            span1.style.color = "#66b900";
+            txt1.className = "correct";
+            span1.style.display = "block";
+            isUsername = true;
+        }else {
+            span1.innerText = "格式错误";
+            span1.style.color = "red";
+            txt1.className = "error";
+            isUsername = false;
+        }
+
+    };
+    //密码格式验证
+    function password() {
+        var len = txt2.value.length;
+        var reg = /\w/g;
+        if(reg.test(txt2.value)){
+            if(len>=4&&len<=16){
+                span2.innerText = "格式正确";
+                txt2.className = "correct";
+                span2.style.color = "#62b900";
+            }else {
+                span2.innerText = "格式错误，密码为4到16位合法字符";
+                txt2.className = "error";
+                span2.style.color = "#ff4b5a";
+            }
+        }
+        else if(len===0){
+            span2.innerText = "密码不能为空";
+            txt2.className = "error";
+            span2.style.color = "#ff4b5a";
+        }else {
+            span2.innerText = "不合法字符，密码格式为字母数字下划线";
+            txt2.className = "error";
+            span2.style.color = "#ff4b5a";
+        }
+    }
+    //重复密码格式验证
+    var isPassword = false;
+    function password1() {
+        var len = txt3.value.length;
+        if(len===0){
+            span3.innerText = "密码不能为空";
+            txt3.className="error"
+            span3.style.color = "#ff4b5a";
+            isPassword = false;
+        }else if(txt3.value===txt2.value ) {
+            span3.innerText = "两次密码一致";
+            txt3.className = "correct";
+            span3.style.color = "#62b900";
+            isPassword = true;
+        }else {
+            span3.innerText = "密码不一致，请重新输入";
+            txt3.className = "error"
+            span3.style.color = "#ff4b5a";
+            isPassword = false;
+            txt3.value="";
+        }
+    }
+    //邮箱验证，使用正则
+    var isEmail = false;
+    function email() {
+        var reg = /^[0-9a-zA-Z]+@(([0-9a-zA-Z]+)[.])+[a-z]{2,4}$/i;
+        if(txt4.value.length===0){
+            span4.innerText = "邮箱不能为空";
+            txt4.className = "error";
+            span4.style.color = "red";
+            isEmail = false;
+        }else if(reg.test(txt4.value)){
+            span4.innerText = "邮箱格式正确";
+            txt4.className = "correct";
+            span4.style.color = "#62b900";
+            isEmail = true;
+        }else {
+            span4.innerText = "不合法的邮箱格式，请重新输入";
+            txt4.className = "error";
+            span4.style.color = "red";
+            txt4.value="";
+            isEmail = false;
+        }
+    }
+    //手机号码验证，使用正则匹配13位数字
+    var isPhone = false;
+    function phone() {
+        var reg = /^1\d{10}$/;
+        if(txt5.value.length===0){
+            span5.innerText = "手机号不能为空";
+            txt5.className = "error";
+            span5.style.color = "red";
+            isPhone = false;
+        }else if(reg.test(txt5.value)){
+            span5.innerText = "手机格式正确";
+            txt5.className = "correct";
+            span5.style.color = "#62b900";
+            isPhone = true;
+        }else {
+            span5.innerText = "手机号为1开头的11位数字";
+            txt5.className = "error";
+            span5.style.color = "red";
+            isPhone = false;
+            txt5.value="";
+        }
+    }
+    //提交前验证所有选择
+    function yanzheng() {
+        if(isUsername===true&&isPassword===true&&isPhone===true&&isEmail===true){
+            alert("提交表单成功")
+        }else {
+            alert("表单未正确填写，请重新填写完整");
+            txt2.value="";
+            txt3.value="";
+        }
+    }
+</script>
+</html>

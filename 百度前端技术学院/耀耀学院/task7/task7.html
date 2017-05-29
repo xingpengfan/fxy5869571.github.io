@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task7</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            box-shadow:  4px 4px 5px rgba(0,0,0,0.5);
+        }
+        thead{
+            background: rgba(60,60,60,0.8);
+            color: white;
+        }
+        thead td{
+            border-color: white;
+        }
+        td{
+            position: relative;
+            width: 120px;
+            height: 50px;
+            text-align: center;
+        }
+        .srotUp{
+            position: absolute;
+            top: 0;
+            right: 18px;
+            border: 11px solid white;
+            border-color:  transparent transparent white transparent;
+        }
+        .srotDown{
+            position: absolute;
+            top: 30px;
+            right: 18px;
+            border: 11px solid white;
+            border-color: white transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+<table border="1" id="tab">
+</table>
+</body>
+<script>
+
+            var heads = [
+                {
+            name: 'name',
+            label: '姓名',
+            sortable: false
+        },
+                {
+            name: 'chinese',
+            label: '语文',
+            sortable: true
+        },
+                {
+            name: 'math',
+            label: '数学',
+            sortable: true
+        },
+                {
+            name: 'english',
+            label: '英语',
+            sortable: true
+        },
+                {
+            name: 'total',
+            label: '总分',
+            sortable: true
+        }]
+            var datas = [
+                {
+                    name: '小明',
+                    chinese: 90,
+                    math: 100,
+                    english: 70,
+                    total: 260
+                },
+                {
+                    name: '小花',
+                    chinese: 90,
+                    math: 70,
+                    english: 80,
+                    total: 240
+                },
+                {
+                    name: '小红',
+                    chinese: 70,
+                    math: 90,
+                    english: 70,
+                    total: 230
+                },
+                {
+                    name: '小桃',
+                    chinese: 60,
+                    math: 100,
+                    english: 90,
+                    total: 250
+                },
+                {
+                    name: '小张',
+                    chinese: 80,
+                    math: 80,
+                    english: 70,
+                    total: 230
+                }
+            ];
+
+            var tab = document.getElementById("tab");
+        console.log(tab)
+        function init() {
+            initThead();
+            initTbody();
+        }
+        //初始化表头
+            function initThead() {
+                var trnode = createTr();
+                var tHead = document.createElement("thead");
+                heads.forEach(function (head) {
+                    var tdnode = createTd(head.label);
+                    var val = head.name;
+                    if(head.sortable){
+                        var srotUp = document.createElement("span");
+                        srotUp.className = "srotUp";
+                        tdnode.appendChild(srotUp);
+                        srotUp.onclick = function () {
+                                upbtn(val);
+                        }
+                        var srotDown = document.createElement("span");
+                        srotDown.className = "srotDown";
+                        tdnode.appendChild(srotDown);
+                        srotDown.onclick = function () {
+                            downbtn(val);
+                        }
+                    }
+                    trnode.appendChild(tdnode);
+                });
+                tHead.appendChild(trnode);
+                tab.appendChild(tHead);
+            }
+            //升序按钮
+            function upbtn(val) {
+                upsort(val);
+                tab.innerHTML = "";
+                init();
+            }
+            function downbtn(val) {
+                downsort(val);
+                tab.innerHTML = "";
+                init();
+            }
+
+            //升序排列
+            function upsort(val) {
+               var score = function (a,b) {
+                   return a[val]-b[val];
+               }
+               return datas.sort(score)
+            };
+            //降序排列
+            function downsort(val) {
+                var scores = function (a,b) {
+                    return b[val]-a[val];
+                }
+                return datas.sort(scores);
+            }
+            //初始化表格
+            function initTbody() {
+                var tBody = document.createElement('tbody');
+                for (var i=0;i<datas.length;i++){
+                    var trNode = createTr();
+                    for (var key in datas[i]){
+                        var tdNode = createTd(datas[i][key]);
+                        trNode.appendChild(tdNode);
+                    }
+                    tBody.appendChild(trNode);
+                }
+                tab.appendChild(tBody);
+            }
+            //添加行
+            function createTr() {
+                var tr = document.createElement("tr");
+                return tr;
+            }
+            //添加单元格
+            function createTd(val) {
+                var td = document.createElement("td");
+                td.innerText = val;
+                return td;
+            }
+        init();
+</script>
+</html>
