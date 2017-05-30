@@ -8,8 +8,14 @@ body{
     display:flex ;
     flex-direction: column;
     max-width: 798px;
-    height: 1900px;
+    height: 2100px;
     margin: 0 auto;
+}
+.img-header{
+    width: 100%;
+    height: 300px;
+    background: url("img/firstPart.jpg") no-repeat;
+    background-size: cover;
 }
 .header{
     flex: 0 1 60px;

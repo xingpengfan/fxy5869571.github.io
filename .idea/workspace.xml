@@ -2,238 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08676bad-3024-4a29-a52f-1ac8846a17b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/123.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/activity1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/activity2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/activity3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/activity4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/bgimage-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/fengjing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/fengjing2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/fengjing3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/fengjing4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/fengjing5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/firstPart.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/global.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/icon-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/icon-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/icon-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/icon-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/login-icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/mao1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/mao2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/mao3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/qq.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/rd-c.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/rd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/sevenPart-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/site-pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/site-pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/sixPart-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/tuite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/weibo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/youhua.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/img/youhua2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task1/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task1/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task4.1/task2/task2.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/task1/task1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/js基础练习/task7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/js/npm.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/.idea/misc.xml" afterPath="$PROJECT_DIR$/tasks/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/.idea/modules.xml" afterPath="$PROJECT_DIR$/tasks/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/.idea/workspace.xml" afterPath="$PROJECT_DIR$/tasks/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/.idea/百度前端技术学院.iml" afterPath="$PROJECT_DIR$/tasks/.idea/百度前端技术学院.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap.css" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/bootstarp/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/bootstarp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/bootstarp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/bootstarp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/bootstarp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/bootstarp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/js/bootstrap.js" afterPath="$PROJECT_DIR$/bootstarp/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/bootstarp/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/bootstarp/js/npm.js" afterPath="$PROJECT_DIR$/bootstarp/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEight/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEight/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEight/taskEight.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEight/taskEight.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/123.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/123.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/activity1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/activity1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/activity2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/activity2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/activity3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/activity3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/activity4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/activity4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/bgimage-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/bgimage-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/fengjing.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/fengjing.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/fengjing2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/fengjing2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/fengjing3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/fengjing3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/fengjing4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/fengjing4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/fengjing5.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/fengjing5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/firstPart.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/firstPart.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/global.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/global.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/icon-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/icon-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/icon-2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/icon-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/icon-3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/icon-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/icon-4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/icon-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/login-icon.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/login-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/mao1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/mao1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/mao2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/mao2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/mao3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/mao3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/qq.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/qq.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/rd-c.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/rd-c.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/rd.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/rd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/sevenPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/sevenPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/site-pic.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/site-pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/site-pic2.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/site-pic2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/sixPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/sixPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/tuite.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/tuite.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/weibo.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/weibo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/youhua.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/youhua.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/img/youhua2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/img/youhua2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/reset.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/style.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskEleven/taskEleven.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskFive/styls2.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskFive/styls2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskFive/taskfive.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskFive/taskfive.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskFour/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskFour/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskFour/taskFour.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskFour/taskFour.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/calendar.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/calendar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/change.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/change.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/down.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/file.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/file.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/fileB.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/fileB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/form.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/form.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/id.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/id.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/login.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/login.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/logo.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/more.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/more.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/moreB.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/moreB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/search.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/select.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/select.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/selectB.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/selectB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/share.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/star.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/star.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/word.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/word.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/img/wordB.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/img/wordB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskNine/taskNine.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskNine/taskNine.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskOne/taskOne.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskOne/taskOne.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/activity1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/activity1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/activity2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/activity2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/activity3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/activity3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/activity4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/activity4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/bgimage-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/bgimage-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/firstPart.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/firstPart.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/global.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/global.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/icon-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/icon-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/icon-2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/icon-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/icon-3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/icon-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/icon-4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/icon-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/login-icon.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/login-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/qq.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/qq.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/rd-c.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/rd-c.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/rd.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/rd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/sevenPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/sevenPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/site-pic.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/site-pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/site-pic2.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/site-pic2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/sixPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/sixPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/tuite.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/tuite.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/img/weibo.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/img/weibo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSeven/taskSeven.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSeven/taskSeven.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSix/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSix/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskSix/taskSix.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskSix/taskSix.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTen/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTen/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTen/taskTen.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTen/taskTen.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskThree/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskThree/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskThree/taskThree.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskThree/taskThree.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/123.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/123.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/activity1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/activity1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/activity2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/activity2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/activity3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/activity3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/activity4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/activity4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/bgimage-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/bgimage-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/fengjing.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/fengjing.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/fengjing2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/fengjing2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/fengjing3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/fengjing3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/fengjing4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/fengjing4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/fengjing5.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/fengjing5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/firstPart.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/firstPart.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/global.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/global.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/icon-1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/icon-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/icon-2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/icon-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/icon-3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/icon-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/icon-4.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/icon-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/login-icon.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/login-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/mao1.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/mao1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/mao2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/mao2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/mao3.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/mao3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/qq.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/qq.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/rd-c.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/rd-c.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/rd.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/rd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/sevenPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/sevenPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/site-pic.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/site-pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/site-pic2.png" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/site-pic2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/sixPart-pic.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/sixPart-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/tuite.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/tuite.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/weibo.gif" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/weibo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/youhua.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/youhua.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/img/youhua2.jpg" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/img/youhua2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/style.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwelve/twelve.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwelve/twelve.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwo/styls.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwo/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小微学院/taskTwo/taskTwo.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskTwo/taskTwo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/.idea/modules.xml" afterPath="$PROJECT_DIR$/tasks/task2.1/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/.idea/workspace.xml" afterPath="$PROJECT_DIR$/tasks/task2.1/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/.idea/小斌学院.iml" afterPath="$PROJECT_DIR$/tasks/task2.1/.idea/小斌学院.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskEight/styls.css" afterPath="$PROJECT_DIR$/tasks/task2.1/taskEight/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskEight/taskEight.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskEight/taskEight.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskFive/taskFive.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskFive/taskFive.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskFour/taskFour.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskFour/taskFour.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskOne/taskOne.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskOne/taskOne.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskSeven/styls.css" afterPath="$PROJECT_DIR$/tasks/task2.1/taskSeven/styls.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskSeven/taskSeven.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskSeven/taskSeven.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskSix/taskSix.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskSix/taskSix.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskThree/taskThree.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskThree/taskThree.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/小斌学院/taskTwo/taskTwo.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskTwo/taskTwo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/backTop/backTop.html" afterPath="$PROJECT_DIR$/tasks/task3.1/backTop/backTop.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/backTop/images/tb_bg.jpg" afterPath="$PROJECT_DIR$/tasks/task3.1/backTop/images/tb_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/backTop/images/top_bg.png" afterPath="$PROJECT_DIR$/tasks/task3.1/backTop/images/top_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task1/task1.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task1/task1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task2/task2.1.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task2/task2.1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task2/task2.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task2/task2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task3/task3.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task3/task3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task4/task4.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task4/task4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task5/task5.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task5/task5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task6/task6.1.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task6/task6.1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task6/task6.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task6/task6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/百度前端技术学院/耀耀学院/task7/task7.html" afterPath="$PROJECT_DIR$/tasks/task3.1/task7/task7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html" afterPath="$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -251,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+            <state relative-caret-position="610">
+              <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -302,11 +72,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
+              <folding>
+                <element signature="e#346#527#0" expanded="false" />
+                <element signature="e#539#598#0" expanded="false" />
+                <element signature="e#613#637#0" expanded="false" />
+                <element signature="e#666#735#0" expanded="false" />
+                <element signature="e#763#809#0" expanded="false" />
+                <element signature="e#814#984#0" expanded="false" />
+                <element signature="e#993#1031#0" expanded="false" />
+                <element signature="e#1046#1087#0" expanded="false" />
+                <element signature="e#1093#1252#0" expanded="false" />
+                <element signature="e#1262#1305#0" expanded="false" />
+                <element signature="e#1317#1362#0" expanded="false" />
+                <element signature="e#1372#1471#0" expanded="false" />
+                <element signature="e#1485#1610#0" expanded="false" />
+                <element signature="e#1635#1663#0" expanded="false" />
+                <element signature="e#1680#1727#0" expanded="false" />
+                <element signature="e#1744#1797#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="task4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/task3.1/task4/task4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taskEleven.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -330,14 +137,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/item/index.html" />
-        <option value="$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css" />
-        <option value="$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/tasks/task4.1/task1/style.css" />
         <option value="$PROJECT_DIR$/tasks/task4.1/task1/task1.html" />
         <option value="$PROJECT_DIR$/tasks/task4.1/task2/task2.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html" />
+        <option value="$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css" />
       </list>
     </option>
   </component>
@@ -518,6 +325,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fxy5869571.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fxy5869571.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fxy5869571.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fxy5869571.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taskEleven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -631,12 +478,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496056234333</updated>
       <workItem from="1496056235876" duration="2096000" />
-      <workItem from="1496105508002" duration="9169000" />
+      <workItem from="1496105508002" duration="9957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11265000" />
+    <option name="totallyTimeSpent" value="12053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="1" />
@@ -766,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskTwo/taskTwo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -842,14 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -950,10 +781,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/taskEleven.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task1.1/taskEleven/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="e#346#527#0" expanded="false" />
+            <element signature="e#539#598#0" expanded="false" />
+            <element signature="e#613#637#0" expanded="false" />
+            <element signature="e#666#735#0" expanded="false" />
+            <element signature="e#763#809#0" expanded="false" />
+            <element signature="e#814#984#0" expanded="false" />
+            <element signature="e#993#1031#0" expanded="false" />
+            <element signature="e#1046#1087#0" expanded="false" />
+            <element signature="e#1093#1252#0" expanded="false" />
+            <element signature="e#1262#1305#0" expanded="false" />
+            <element signature="e#1317#1362#0" expanded="false" />
+            <element signature="e#1372#1471#0" expanded="false" />
+            <element signature="e#1485#1610#0" expanded="false" />
+            <element signature="e#1635#1663#0" expanded="false" />
+            <element signature="e#1680#1727#0" expanded="false" />
+            <element signature="e#1744#1797#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="610">
+          <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding />
         </state>
       </provider>
