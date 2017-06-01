@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>infiniteLoad</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="../../../bootstarp/js/bootstrap.js"></script>
+    <link href="../../../bootstarp/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <style>
+        .container{
+            width: auto;
+            max-width: 480px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .item {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 20px auto;
+            text-align: center;
+            list-style: none;
+            border: 1px solid #d3d3d3;
+            border-radius: 10px;
+        }
+        #123{
+            position: fixed;
+            left: 500px;
+            width: 20px;
+            margin: 0 auto;
+            color: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+</div>
+<div id="123">加载更多...</div>
+</body>
+<script>
+    $(function () {
+        var index = 0;
+        function isLow() {
+                var pageHeight = Math.max(document.body.scrollHeight,document.body.offsetHeight);
+                var viewportHeight = window.innerHeight ||
+                    document.documentElement.clientHeight ||
+                    document.body.clientHeight || 0;
+                var scrollHeight = window.pageYOffset ||
+                    document.documentElement.scrollTop ||
+                    document.body.scrollTop || 0;
+                /*console.log(pageHeight);
+                 console.log(viewportHeight);
+                console.log(scrollHeight);*/
+                return pageHeight - viewportHeight - scrollHeight < 40;
+            }
+
+            function addChild() {
+                var text = "";
+                for (var i=0;i<10;i++){
+                    text += "<li class='item'>这是第"+index+"次加载</li>";
+                }
+                $('.container').append(text);
+                index++
+                pollScroll();
+            }
+        function checkScroll(){
+            if(!isLow()) return pollScroll();
+
+            $('#123').show();
+            setTimeout(addChild,200);
+
+        }
+        function pollScroll(){
+            setTimeout(checkScroll,3000);
+        }
+        checkScroll();
+    });
+</script>
+</html>
