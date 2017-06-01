@@ -73,7 +73,7 @@ $(function () {
             playControls.playStatus();
         });
         //上一首
-        $('#backTop').click(function () {
+        $('#hasNext').click(function () {
 			if(playStatus.trackIndex-1<0){
 				alert("这是第一首")
 			}else {
@@ -85,7 +85,7 @@ $(function () {
             playControls.playStatus();
         });
         //下一首
-        $('#hasNext').click(function () {
+        $('#backTop').click(function () {
             if(playStatus.trackIndex>playStatus.trackLen-1){
                 alert("这是最后一首了");
             }else {
