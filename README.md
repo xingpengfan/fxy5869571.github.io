@@ -41,7 +41,7 @@
 
 ## 作品
 
-### [仿豆瓣音乐] demo(https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
+### [仿豆瓣音乐] demo (https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
 模仿豆瓣音乐播放器。
 
 
