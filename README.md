@@ -44,7 +44,8 @@
 ### [仿豆瓣音乐] (https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
 模仿豆瓣音乐播放器。
 
-
+#### [兔展](http://www.rabbitpre.com/)
+项目网站：http://www.rabbitpre.com/
 
 ## License
 MIT License
