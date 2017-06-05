@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loading</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .loading{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border: 2px solid red;
+            border-radius: 50%;
+            border-color: transparent #ff4b5a #ff4b5a #ff4b5a;
+            animation: move 5.8s linear infinite;
+
+        }
+        .left-border{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            border-radius: 50%;
+            border-color: transparent #ff7fbc #ff7fbc transparent ;
+            animation: left 1.8s linear infinite;
+        }
+        .right-border{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            border-radius: 50%;
+            z-index: 3;
+            border-color: transparent red  red transparent  ;
+            animation: right 1.8s linear infinite;
+        }
+        .cricle{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            z-index: 2;
+            border-radius: 50%;
+            border-color: red #ff4b5a #ff4b5a red ;
+        }
+        @keyframes move {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes left {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(180deg);
+            }
+            50% {
+                transform: rotate(180deg);
+                z-index: 3;
+            }
+            75% {
+                transform: rotate(360deg);
+                z-index: 3;
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes right {
+            0% {
+                transform: rotate(0deg);
+                z-index: 3;
+            }
+            25% {
+                transform: rotate(0deg);
+                z-index: 3;
+            }
+            25.001% {
+                transform: rotate(0deg);
+                z-index: 2;
+            }
+            50% {
+                transform: rotate(180deg);
+                z-index: 2;
+            }
+            75% {
+                transform: rotate(180deg);
+                z-index: 2;
+            }
+            75.001% {
+                transform: rotate(180deg);
+                z-index: 3;
+            }
+            100% {
+                transform: rotate(360deg);
+                z-index: 3;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="loading">
+        <div class="load">
+            <div class="left-border"></div>
+            <div class="right-border"></div>
+            <div class="cricle"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
