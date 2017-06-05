@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+个人简历
+======================
+范兴宇的个人简历
 
-You can use the [editor on GitHub](https://github.com/fxy5869571/myRepository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 个人信息
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**姓名**：范兴宇
 
-### Markdown
+**性别**：男  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**出生年月**: 1993年1月16日
 
-```markdown
-Syntax highlighted code block
+**籍贯**： 福建省-南平-建阳
 
-# Header 1
-## Header 2
-### Header 3
+**学校专业**： 建阳商校
 
-- Bulleted
-- List
+**Email**：996276475@qq.com
 
-1. Numbered
-2. List
+**github**：https://github.com/fxy5869571
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## 自我简介
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+曾在创业团队当中担任Team Leader以及前端架构师。有大型SPA架构经验（4万行CoffeeScript），对前端框架、开发模式、架构有丰富的经验和独特见解。
 
-### Jekyll Themes
+有4年Web开发经验，熟练掌握Web前后端技术，能独立开发前后端完成一个Web Application。能独立开发一个前端框架，并且热衷于开源项目。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fxy5869571/myRepository/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+拥有较强的学习能力和团队合作能力，熟悉项目开发流程和团队协同工作。
 
-### Support or Contact
+## 技术能力
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* 专注并热爱于Web前端开发，熟练掌握JavaScript、CSS、HTML
+* 掌握VUE相关开发。
+
+## 个人经历
+* 2011年进入中山大学软件学院学习。
+* 大一接触Web，并且专注前端，热血编程至今。
+* 大二曾在创业项目中担任前端工程师和Team Leader角色。
+* 担任中山大学现代互联网应用俱乐部主席。
+* 2015~2016 腾讯微信Web前端工程师。
+
+## 作品
+
+### [仿豆瓣音乐] demo(https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
+模仿豆瓣音乐播放器。
+
+
+
+## License
+MIT License
