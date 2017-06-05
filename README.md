@@ -40,12 +40,22 @@
 * 2015~2016 腾讯微信Web前端工程师。
 
 ## 作品
+### [仿豆瓣音乐](https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
+*模仿豆瓣音乐播放器。
 
-### [仿豆瓣音乐] (https://fxy5869571.github.io/tasks/taskJs/audioPlayer/audioPlayer.html)
-模仿豆瓣音乐播放器。
+### [听指令的小方块](https://fxy5869571.github.io/tasks/task3.1/task5/task5.html)
+实现一个类似棋盘的格子空间，每个格子用两个数字可以定位，一个红正方形的DOM在这个空间内，正方形中的蓝色边表示这是他的正面，有一个input输入框
+*在输入框中允许输入如下指令，按下按钮后，使得正方形做相应动作
+*GO：向蓝色边所面向的方向前进一格（一格等同于正方形的边长）
+*TUN LEF：向左转（逆时针旋转90度）
+*TUN RIG：向右转（顺时针旋转90度）
+*TUN BAC：向右转（旋转180度）
+*移动不能超出格子空间
 
-#### [兔展](http://www.rabbitpre.com/)
-项目网站：http://www.rabbitpre.com/
+### [表单绑定验证](https://fxy5869571.github.io/tasks/task3.1/task2/task2.1.html)
+*点击提交按钮时，对页面中所有输入进行校验，校验结果显示方式同上。若所有表单校验通过，弹窗显示“提交成功”，否则显示“提交失败”
+
+
 
 ## License
 MIT License
