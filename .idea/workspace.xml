@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08676bad-3024-4a29-a52f-1ac8846a17b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstarp/task/task1.html" afterPath="$PROJECT_DIR$/bootstarp/task/task1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="task1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstarp/task/task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="232" column="35" lean-forward="true" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+            <state relative-caret-position="583">
+              <caret line="230" column="8" lean-forward="false" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,8 +75,8 @@
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#8350#10198#0" expanded="false" />
-                <element signature="e#10229#10838#0" expanded="false" />
+                <element signature="e#8385#10362#0" expanded="false" />
+                <element signature="e#10396#11026#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -436,12 +435,12 @@
       <workItem from="1496807979891" duration="7204000" />
       <workItem from="1496897608772" duration="2701000" />
       <workItem from="1496917033880" duration="1477000" />
-      <workItem from="1496994236583" duration="18422000" />
+      <workItem from="1496994236583" duration="18548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95513000" />
+    <option name="totallyTimeSpent" value="95639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -902,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstarp/task/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="232" column="35" lean-forward="true" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+        <state relative-caret-position="583">
+          <caret line="230" column="8" lean-forward="false" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -913,8 +912,8 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#8350#10198#0" expanded="false" />
-            <element signature="e#10229#10838#0" expanded="false" />
+            <element signature="e#8385#10362#0" expanded="false" />
+            <element signature="e#10396#11026#0" expanded="false" />
           </folding>
         </state>
       </provider>
