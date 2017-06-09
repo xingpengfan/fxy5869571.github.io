@@ -77,7 +77,7 @@
     </div>
     <div class="container">
         <nav aria-label="Page navigation">
-            <ul class="pagination">
+            <ul class="pagination pagination-lg">
                 <li>
                     <a href="#" aria-label="Previous">
                         <span aria-hidden="true">&laquo;</span>
@@ -168,71 +168,69 @@
 <script type="text/javascript" src="../../bootstarp/js/bootstrap.min.js" ></script>
 <script type="text/javascript" src="../../bootstarp/js/backTop.js" ></script>
 <script>
-    window.onload = ()=>{
-        const left = document.getElementById("left-content");
-        const btn = document.getElementsByClassName("backTop")[0];
-        let times = null;
-        const clientHeight =document.documentElement.clientHeight;
-        let isTop = true;
-        const LEFT_CONTENT = [
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            },
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            },
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            },
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            },
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            },
-            {
-                title:"Node.js v4 LTS 成为 Ghost 推荐版本",
-                auther:"王赛",
-                time:"2016年7月26日",
-                content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
-                "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
-            }
-        ]
-        function init(node,lists) {
-            for (let i=0;i<lists.length;i++){
-                let div = document.createElement("div");
-                div.className = "left-content";
-                div.innerHTML = `<h1>${lists[i].title}</h1>
+    const left = document.getElementById("left-content");
+    const btn = document.getElementsByClassName("backTop")[0];
+    const LEFT_CONTENT = [
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        },
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        },
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        },
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        },
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        },
+        {
+            title:"Node.js v4 LTS 成为 Ghost 推荐版本",
+            auther:"王赛",
+            time:"2016年7月26日",
+            content:"从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，" +
+            "经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托"
+        }
+    ]
+    function init(node,lists) {
+        for (let i=0;i<lists.length;i++){
+            let div = document.createElement("div");
+            div.className = "left-content";
+            div.innerHTML = `<h1>${lists[i].title}</h1>
                                     <span>作者:</span>
                                     <span>${lists[i].auther}</span>
                                     <span>${lists[i].time}</span>
                                     <div><p>${lists[i].content}</p></div>
                                      <div><button class="btn btn-default left">阅读全文</button></div>`;
-                node.appendChild(div);
-            }
+            node.appendChild(div);
         }
-        init(left,LEFT_CONTENT);
-      backTop(btn);
     }
+   $(window).ready(()=>{
+       init(left,LEFT_CONTENT);
+       backTop(btn);
+       $(window).trigger('scroll');
+   });
 </script>
 </html>
