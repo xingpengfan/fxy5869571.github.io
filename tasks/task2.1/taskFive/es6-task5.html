@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task4</title>
+    <style>
+        li{
+            display: inline-block;
+            vertical-align: bottom;
+            margin: 5px;
+            width: 30px;
+            color: transparent;
+            background: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<input type="text">
+<button>左侧进</button>
+<button>右侧进</button>
+<button>左侧出</button>
+<button>右侧出</button>
+<button>排序</button>
+<ul></ul>
+</body>
+<script>
+    window.onload = ()=>{
+        const inputEle = document.getElementsByTagName("input")[0];
+        const btn = document.getElementsByTagName("button")[0];
+        const btn2 = document.getElementsByTagName("button")[1];
+        const btn3 = document.getElementsByTagName("button")[2];
+        const btn4 = document.getElementsByTagName("button")[3];
+        const btn5 = document.getElementsByTagName("button")[4];
+        const ul = document.getElementsByTagName("ul")[0];
+        const li = document.getElementsByTagName("li");
+        function insert(node,direction) {
+            if(node.value.length===0){
+                alert("输入不能为空")
+            }else if(isNaN(node.value)||node.value>100||node.value<10){
+                alert("请输入10到100的合法数字");
+            }else {
+                let li = document.createElement("li");
+                li.innerText = node.value;
+                li.style.height = `${node.value}px`;
+                if(direction==="left"){
+                    ul.insertBefore(li, ul.firstChild);
+                }else if(direction==="right"){
+                    ul.appendChild(li)
+                }
+            }
+        }
+        function del(node,direction) {
+            if(direction==="left"){
+                node.removeChild(node.firstChild);
+            }else if(direction==="right"){
+                node.removeChild(node.lastChild);
+            }
+        };
+        function delMe(node) {
+            ul.removeChild(node);
+        };
+        function sortdata(node) {
+            let data = [].slice.call(node);
+            if(data.length!==0){
+                data.sort((a,b)=>{
+                   return a.innerText - b.innerText;
+                });
+            }
+            for(let i=0;i<data.length;i++){
+                ul.appendChild(data[i]);
+            }
+        };
+        ul.onclick = ()=>{
+            delMe(event.target)
+        }
+        btn.onclick = ()=>{
+            insert(inputEle,"left");
+        }
+        btn2.onclick = ()=>{
+            insert(inputEle,"right");
+        }
+        btn3.onclick = ()=>{
+            del(ul,"left");
+        }
+        btn4.onclick = () => {
+            del(ul,"right");
+        }
+        btn5.onclick = ()=>{
+            sortdata(li);
+        }
+    }
+</script>
+</html>

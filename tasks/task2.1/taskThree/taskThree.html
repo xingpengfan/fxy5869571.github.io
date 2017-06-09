@@ -61,7 +61,7 @@
         var li = document.getElementById("source").getElementsByTagName("li");
         var data=[];
         for(var i=0;i<li.length;i++){
-            var key = li[i].innerHTML.split("空气质量：")[0];
+            var key = li[i].innerHTML.split("空气质量:")[0];
             var value = li[i].children[0].innerHTML;
             data.push([key,value]);
         }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskseven</title>
+    <link rel="stylesheet" href="styls.css" type="text/css">
+</head>
+<body>
+<div id="root">
+    <div class="child1">12
+        <div class="child2">fan
+            <div class="child3">xing</div>
+            <div class="child3">yu</div>
+            <div class="child3">da</div>
+        </div>
+        <div class="child2">ge
+            <div class="child3">qian</div>
+            <div class="child3">qiu</div>
+        </div>
+        <div class="child2">wan
+            <div class="child3">dai</div>
+            <div class="child3">yi</div>
+        </div>
+    </div >
+    <div class="child1">tong
+        <div class="child2">jiang
+            <div class="child3">hu</div>
+            <div class="child3">haha</div>
+        </div>
+        <div class="child2">haha
+            <div class="child3">last</div>
+            <div class="child3">is</div>
+        </div>
+        <div class="child2">best
+            <div class="child3">hello</div>
+            <div class="child3">word</div>
+        </div>
+    </div>
+    <div class="child1">if
+        <div class="child2">you
+            <div class="child3">hava</div>
+            <div class="child3">a</div>
+        </div>
+        <div class="child2">gream
+            <div class="child3">you</div>
+            <div class="child3">are</div>
+        </div>
+        <div class="child2">an
+            <div class="child3">best</div>
+            <div class="child3">peo</div>
+        </div>
+    </div>
+</div>
+<div class="button">
+    <button>先序遍历</button>
+    <button>后续遍历</button>
+    <input type="text" id="insearch">
+    <button id="search">查询</button>
+</div>
+
+<script>
+    window.onload = ()=>{
+        const root = document.getElementById("root");
+        const btns = document.getElementsByTagName("button");
+        const inputEle = document.getElementsByTagName("input")[0];
+        const btnSearch = document.getElementById("search");
+        const functionGround = [
+            firstOrder,
+            lastOrder
+        ];
+        let nodes = [];
+        //先序
+        function firstOrder(root) {
+            if(root!==null){
+                nodes.push(root);
+                Array.from(root.children).forEach((child)=>{
+                    firstOrder(child);
+                });
+            }
+        }
+        //后序
+        function lastOrder(root) {
+            if(root!==null){
+                Array.from(root.children).forEach((child)=>{
+                    firstOrder(child);
+                });
+                nodes.push(root);
+            }
+        }
+        function show(nodes) {
+            let i = 0;
+            nodes[i].style.background = "blue";
+            let timer = setInterval(()=>{
+                i++;
+                if(i<nodes.length){
+                    nodes[i].style.background = "blue";
+                    nodes[i-1].style.background = "#ffffff";
+                }else {
+                    clearInterval(timer);
+                    nodes[i-1].style.background = "#ffffff";
+                }
+            },500);
+        };
+        function search(nodes) {
+            let i = 0;
+            nodes[i].style.background = "blue";
+            setTimeout(()=>{
+                nodes[i].style.background = "#ffffff";
+            },400);
+            let timer = setInterval(()=>{
+                i++;
+                if(i<nodes.length){
+                    nodes[i].style.background = "blue";
+                    if(nodes[i].firstChild.nodeValue.indexOf(inputEle.value)>-1){
+                        nodes[i].style.background = "green";
+                    }else {
+                       setTimeout(()=>{
+                           nodes[i].style.background = "#ffffff";
+                       },400);
+                    }
+                }else {
+                    clearInterval(timer);
+                    nodes[i-1].style.background = "#ffffff";
+                }
+            },500);
+        }
+        function reset() {
+            nodes = [];
+            const divs = document.getElementsByTagName("div");
+            Array.from(divs).forEach((div)=>{
+                div.style.background = "#ffffff";
+            });
+
+        }
+        //按钮事件
+        Array.from(btns).forEach((btn,i)=>{
+            btn.onclick =()=>{
+                reset();
+                functionGround[i](root);
+                show(nodes);
+
+            };
+        });
+        btnSearch.onclick = ()=>{
+            reset()
+            firstOrder(root);
+            search(nodes);
+        }
+    };
+</script>
+</body>
+</html>

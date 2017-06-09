@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgba(147,153,159,0.1);
+    font-family: 微软雅黑;
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    background: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg) no-repeat;
+    background-size: cover;
+}
+#bs-example-navbar-collapse-1 a{
+    font-size: 1.25em;
+    color: black;
+}
+.left-content{
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    background: white;
+    margin-bottom: 20px ;
+}
+.left-content:last-child{
+    margin-bottom: 0;
+}
+.left-content h1{
+    font-size: 1.5em;
+    font-family: 微软雅黑;
+}
+.left-content span:nth-child(3){
+    margin: 5px;
+    color: #f5af2c;
+}
+.left-content div{
+    margin: 30px 10px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 2.2rem;
+}
+.left-content div:last-child{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.left-content button{
+    background: #e67622;
+    color: white;
+}
+.left-content button:hover{
+    background: #333;
+    color: white;
+}
+.right1{
+    background: white;
+    padding: 20px 30px 30px 30px ;
+    font-size: 2.5rem;
+    height: auto;
+    margin-bottom: 20px;
+}
+.right1 div:first-child{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #CCC;
+    border-color: #e67622;
+
+}
+.right1 div:last-child{
+    margin-top: 20px;
+}
+.right1 div:last-child p{
+    font-size: 1.5rem;
+    vertical-align: top;
+    color: #e67622;
+}
+.right1 div:last-child p:first-child{
+    color: black;
+}
+.right2{
+    background: white;
+    padding: 20px 30px 30px 30px ;
+    font-size: 2.5rem;
+    height: auto;
+    margin-bottom: 20px;
+}
+.button{
+    background: #e67622 ;
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 4px 0;
+    border-radius: 2px;
+}
+.button:hover{
+    background: #333;
+}
+.flow button{
+    margin: 5px ;
+}
+.flow button:hover{
+    background: #e67622 ;
+    color: white;
+}
+.footer{
+    background: #202020;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer .title{
+    color: white;
+    border-bottom: 1px solid #e67622 ;
+}
+.left div{
+    margin-top: 20px;
+}
+.left div{
+    border-bottom: 1px dashed #303030;
+}
+.right div{
+    border-bottom: 1px dashed #303030;
+}
+.footer p{
+    color: #959595;
+}
+.footer p:hover{
+    color: #e67622;
+}
+.buttons{
+    margin-top: 20px;
+}
+.footer button{
+    margin: 5px 3px;
+    background: #202020;
+    color: #959595;
+}
+.footer button:hover{
+    background: #e67622;
+}
+.right div{
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-size: 1em;
+}
+.right div:last-child{
+    border-bottom: none;
+}
+.footer .right button{
+    border: none;
+}
+.footer2{
+    background: #111;
+    padding: 28px 0;
+    color: #555555;
+    text-align: center;
+}
+.footer2 span{
+    padding-right: 10px;
+    margin-left: 5px;
+    border-right: 1px solid #555555;
+}
+.footer2 a{
+    color: #555555;
+}
+.footer2 span:last-child{
+    border-right: none;
+}
+.backTop{
+    position: fixed;
+    color: white;
+    background: rgba(147,153,159,0.2);
+    font-size: 20px;
+    padding: 0 5px;
+    right: 50px;
+    bottom: 50px;
+}
+@media  (max-width: 720px){
+    .backTop{
+        right: 20px;
+        bottom: 20px;
+
+    }
+}

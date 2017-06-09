@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task6</title>
+    <style>
+        li{
+            display: inline-block;
+            margin: 5px;
+            width: 30px;
+            height: 40px;
+            color: white;
+            background: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<textarea></textarea>
+<button>左侧进</button>
+<button>右侧进</button>
+<button>左侧出</button>
+<button>右侧出</button>
+<input type="text">
+<button>查询</button>
+<ul></ul>
+</body>
+<script>
+    window.onload = ()=>{
+        const inputEle = document.getElementsByTagName("textarea")[0];
+        const input = document.getElementsByTagName("input")[0];
+        const btn = document.getElementsByTagName("button")[0];
+        const btn2 = document.getElementsByTagName("button")[1];
+        const btn3 = document.getElementsByTagName("button")[2];
+        const btn4 = document.getElementsByTagName("button")[3];
+        const btn5 = document.getElementsByTagName("button")[4];
+        const ul = document.getElementsByTagName("ul")[0];
+        const li = document.getElementsByTagName("li");
+        console.log(ul,inputEle);
+        function insert(node,direction) {
+            if(node.value.length===0){
+                alert("输入不能为空");
+            }else {
+                let li = document.createElement("li");
+                li.innerHTML = node.value
+                if(direction==="left"){
+                    ul.insertBefore(li, ul.firstChild);
+                }else if(direction==="right"){
+                    ul.appendChild(li)
+                }
+            }
+        }
+        function del(node,direction) {
+            if(direction==="left"){
+                node.removeChild(node.firstChild);
+            }else if(direction==="right"){
+                node.removeChild(node.lastChild);
+            }
+        };
+        function delMe(node) {
+            ul.removeChild(node);
+        };
+        function query(li,input) {
+            if(li.length===0){
+                alert("没有可查询的对象");
+            }else {
+              for (let i=0;i<li.length;i++){
+              if(li[i].innerHTML.indexOf(input.value)>-1){
+                  li[i].style.background = "blue";
+              }else {
+                  li[i].style.background = "red";
+               }
+             }
+            }
+        }
+        btn5.onclick = ()=>{
+            query(li,input);
+            console.log(1)
+        }
+        ul.onclick = ()=>{
+            delMe(event.target)
+        };
+        btn.onclick = ()=>{
+            insert(inputEle,"left");
+        };
+        btn2.onclick = ()=>{
+            insert(inputEle,"right");
+        };
+        btn3.onclick = ()=>{
+            del(ul,"left");
+        };
+        btn4.onclick = () => {
+            del(ul,"right");
+        };
+    }
+</script>
+</html>

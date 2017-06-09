@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taskseven</title>
+    <link rel="stylesheet" href="styls.css" type="text/css">
+</head>
+<body>
+<div id="root">
+    <div class="child1">12
+        <div class="child2">fan
+            <div class="child3">xing</div>
+            <div class="child3">yu</div>
+            <div class="child3">da</div>
+        </div>
+        <div class="child2">ge
+            <div class="child3">qian</div>
+            <div class="child3">qiu</div>
+        </div>
+        <div class="child2">wan
+            <div class="child3">dai</div>
+            <div class="child3">yi</div>
+        </div>
+    </div >
+    <div class="child1">tong
+        <div class="child2">jiang
+            <div class="child3">hu</div>
+            <div class="child3">haha</div>
+        </div>
+        <div class="child2">haha
+            <div class="child3">last</div>
+            <div class="child3">is</div>
+        </div>
+        <div class="child2">best
+            <div class="child3">hello</div>
+            <div class="child3">word</div>
+        </div>
+    </div>
+    <div class="child1">if
+        <div class="child2">you
+            <div class="child3">hava</div>
+            <div class="child3">a</div>
+        </div>
+        <div class="child2">gream
+            <div class="child3">you</div>
+            <div class="child3">are</div>
+        </div>
+        <div class="child2">an
+            <div class="child3">best</div>
+            <div class="child3">peo</div>
+        </div>
+    </div>
+</div>
+<span class="button">
+    <button>先序遍历</button>
+    <button>后续遍历</button>
+    <input type="text" id="insearch">
+    <button id="search">查询</button>
+    <input type="text">
+    <button id="btnAdd">添加节点</button>
+    <button id="btnDel">删除节点</button>
+</span>
+
+<script>
+    window.onload = ()=>{
+        const root = document.getElementById("root");
+        const btn1 = document.getElementsByTagName("button")[0];
+        const btn2 = document.getElementsByTagName("button")[1];
+        const inputEle = document.getElementsByTagName("input")[0];
+        const inputEle2 = document.getElementsByTagName("input")[1];
+        const btnSearch = document.getElementById("search");
+        const btnAdd = document.getElementsByTagName("btnAdd");
+        const btnDel = document.getElementsByTagName("btnDel");
+        const divs = document.getElementsByTagName("div");
+        const functionGround = [
+            firstOrder,
+            lastOrder
+        ];
+        let nodes = [];
+        function addClass(element,value) {
+            if (!element) return false;
+            if (!element.className) {
+                element.className = value;
+            } else {
+                var tempName = element.className;
+                tempName += ' ';
+                tempName += value;
+                element.className = tempName;
+            }
+        }
+        //先序
+        function firstOrder(root) {
+            if(root!==null){
+                nodes.push(root);
+                Array.from(root.children).forEach((child)=>{
+                    firstOrder(child);
+                });
+            }
+        }
+        //后序
+        function lastOrder(root) {
+            if(root!==null){
+                Array.from(root.children).forEach((child)=>{
+                    firstOrder(child);
+                });
+                nodes.push(root);
+            }
+        };
+        function every() {
+        Array.from(divs).forEach((div)=>{
+            div.onclick = (e)=>{
+                e.preventDefault();
+                e.stopPropagation();
+               addClass(div,"select");
+            }
+        });
+        }
+        function show(nodes) {
+            let i = 0;
+            nodes[i].style.background = "blue";
+            let timer = setInterval(()=>{
+                i++;
+                if(i<nodes.length){
+                    nodes[i].style.background = "blue";
+                    nodes[i-1].style.background = "#ffffff";
+                }else {
+                    clearInterval(timer);
+                    nodes[i-1].style.background = "#ffffff";
+                }
+            },500);
+        };
+        function search(nodes) {
+            let i = 0;
+            nodes[i].style.background = "blue";
+            setTimeout(()=>{
+                nodes[i].style.background = "#ffffff";
+            },400);
+            let timer = setInterval(()=>{
+                i++;
+                if(i<nodes.length){
+                    nodes[i].style.background = "blue";
+                    if(nodes[i].firstChild.nodeValue.indexOf(inputEle.value)>-1){
+                        nodes[i].style.background = "green";
+                    }else {
+                        setTimeout(()=>{
+                            nodes[i].style.background = "#ffffff";
+                        },400);
+                    }
+                }else {
+                    clearInterval(timer);
+                    nodes[i-1].style.background = "#ffffff";
+                }
+            },500);
+        };
+        function reset() {
+            nodes = [];
+            Array.from(divs).forEach((div)=>{
+                div.style.background = "#ffffff";
+            });
+
+        };
+        function add() {
+            let div = document.createElement("div");
+            Array.from(divs).forEach((item)=>{
+                if(item.className.indexOf("select")>-1){
+                        div.innerText = inputEle2.value;
+                        item.appendChild(div);
+                }
+            });
+        }
+        every();
+        //按钮事件
+        btn1.onclick=()=>{
+            reset();
+            firstOrder(root);
+            show(nodes);
+        }
+        btn2.onclick=()=>{
+            reset();
+            lastOrder(root);
+            show(nodes);
+        }
+        btnSearch.onclick = ()=>{
+            reset()
+            firstOrder(root);
+            search(nodes);
+        };
+        btnAdd.onclick = add;
+
+    };
+</script>
+</body>
+</html>
