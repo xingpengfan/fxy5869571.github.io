@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08676bad-3024-4a29-a52f-1ac8846a17b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/js/backTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/task/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/task/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/es6-task9/styls.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/es6-task9/task9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskEight/es6-task8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskFive/es6-task5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskFour/es6-task4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskOne/es6.task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskSeven/es6-task7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskSix/es-task6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskThree/es6-task3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/task2.1/taskTwo/es6-task2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/bibin.html" afterPath="$PROJECT_DIR$/catalog/bibin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/task2.1/taskFive/taskFive.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskFive/taskFive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/task2.1/taskThree/taskThree.html" afterPath="$PROJECT_DIR$/tasks/task2.1/taskThree/taskThree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstarp/task/style.css" afterPath="$PROJECT_DIR$/bootstarp/task/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstarp/task/task1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
@@ -110,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstarp/task/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="621">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -212,9 +194,9 @@
         <option value="$PROJECT_DIR$/tasks/task2.1/es6-task9/styls.css" />
         <option value="$PROJECT_DIR$/tasks/task2.1/es6-task9/task9.html" />
         <option value="$PROJECT_DIR$/tasks/task3.1/backTop/backTop.html" />
-        <option value="$PROJECT_DIR$/bootstarp/task/style.css" />
         <option value="$PROJECT_DIR$/bootstarp/js/backTop.js" />
         <option value="$PROJECT_DIR$/bootstarp/task/task1.html" />
+        <option value="$PROJECT_DIR$/bootstarp/task/style.css" />
       </list>
     </option>
   </component>
@@ -262,60 +244,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task3.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxy5869571.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task3.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backTop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,15 +385,15 @@
       <workItem from="1496807979891" duration="7204000" />
       <workItem from="1496897608772" duration="2701000" />
       <workItem from="1496917033880" duration="1477000" />
-      <workItem from="1496994236583" duration="16359000" />
+      <workItem from="1496994236583" duration="16579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93450000" />
+    <option name="totallyTimeSpent" value="93670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1865828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -893,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstarp/task/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task3.1/backTop/backTop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -935,6 +855,14 @@
             <element signature="e#8493#10513#0" expanded="false" />
             <element signature="e#10548#11185#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstarp/task/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
