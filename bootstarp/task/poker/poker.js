@@ -377,11 +377,10 @@ window.onload = ()=> {
                    people.list.unshift(key);
                    delete people.num[key];
                    return people.level = 6;
-               }else {
-                   people.list=[];
+                 }
                }
+               people.list=[];
            }
-       }
         //顺子
         if(isStraight(people)){
             return people.level = 4;
@@ -621,6 +620,8 @@ window.onload = ()=> {
         i=0;
         me.list =[];
         he.list = [];
+        he.isWin = false;
+        me.isWin = false;
         me.sortimg = [];
         he.sortimg = [];
         datas = [];
