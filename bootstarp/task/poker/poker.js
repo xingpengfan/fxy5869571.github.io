@@ -70,7 +70,7 @@ window.onload = ()=> {
     //变量用于记录鼠标点击次数
     let i = 0;
     //用于储存52张牌扑克数组
-    const datas = [];
+    let datas = [];
     for (let i=0;i<52;i++){
         datas.push(i);
     }
@@ -637,6 +637,7 @@ window.onload = ()=> {
         he.list = [];
         me.sortimg = [];
         he.sortimg = [];
+        datas = [];
         for (let i=0;i<52;i++){
             datas.push(i);
         }
