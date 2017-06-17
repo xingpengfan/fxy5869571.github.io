@@ -6,11 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08676bad-3024-4a29-a52f-1ac8846a17b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/task/task4/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstarp/task/task4/task4.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstarp/task/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstarp/task/task1.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstarp/task/poker/poker.js" afterPath="$PROJECT_DIR$/bootstarp/task/poker/poker.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -210,8 +206,8 @@
       <file leaf-file-name="poker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstarp/task/poker/poker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="192" column="14" lean-forward="false" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
+            <state relative-caret-position="645">
+              <caret line="640" column="26" lean-forward="true" selection-start-line="640" selection-start-column="26" selection-end-line="640" selection-end-column="26" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
                 <element signature="e#758#1222#0" expanded="false" />
@@ -222,6 +218,7 @@
                 <element signature="e#5546#6063#0" expanded="false" />
                 <element signature="e#6316#6737#0" expanded="false" />
                 <element signature="e#6792#7187#0" expanded="false" />
+                <element signature="e#7233#9555#0" expanded="false" />
                 <element signature="e#9997#10104#0" expanded="false" />
                 <element signature="e#10174#10927#0" expanded="false" />
                 <element signature="e#10237#10825#0" expanded="false" />
@@ -248,7 +245,6 @@
                 <element signature="e#19332#19704#0" expanded="false" />
                 <element signature="e#19728#20693#0" expanded="false" />
                 <element signature="e#20189#20272#0" expanded="false" />
-                <element signature="e#20719#21001#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -652,15 +648,15 @@
       <workItem from="1497315179102" duration="11696000" />
       <workItem from="1497493810281" duration="29406000" />
       <workItem from="1497589273461" duration="13436000" />
-      <workItem from="1497670888502" duration="22235000" />
+      <workItem from="1497670888502" duration="22609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198367000" />
+    <option name="totallyTimeSpent" value="198741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10377359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -700,14 +696,8 @@
           <line>59</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/bootstarp/task/poker/poker.js</url>
-          <line>596</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1235,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstarp/task/poker/poker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="192" column="14" lean-forward="false" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
+        <state relative-caret-position="645">
+          <caret line="640" column="26" lean-forward="true" selection-start-line="640" selection-start-column="26" selection-end-line="640" selection-end-column="26" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
             <element signature="e#758#1222#0" expanded="false" />
@@ -1247,6 +1237,7 @@
             <element signature="e#5546#6063#0" expanded="false" />
             <element signature="e#6316#6737#0" expanded="false" />
             <element signature="e#6792#7187#0" expanded="false" />
+            <element signature="e#7233#9555#0" expanded="false" />
             <element signature="e#9997#10104#0" expanded="false" />
             <element signature="e#10174#10927#0" expanded="false" />
             <element signature="e#10237#10825#0" expanded="false" />
@@ -1273,7 +1264,6 @@
             <element signature="e#19332#19704#0" expanded="false" />
             <element signature="e#19728#20693#0" expanded="false" />
             <element signature="e#20189#20272#0" expanded="false" />
-            <element signature="e#20719#21001#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -635,6 +635,8 @@ window.onload = ()=> {
         i=0;
         me.list =[];
         he.list = [];
+        me.sortimg = [];
+        he.sortimg = [];
         for (let i=0;i<52;i++){
             datas.push(i);
         }
