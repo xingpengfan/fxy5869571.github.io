@@ -365,28 +365,23 @@ window.onload = ()=> {
         //葫芦
        if(arr.length===4||arr.length===3){
            for (let key in people.num){
+               if(people.num[key]===2&&people.num[key]!==3){
+                   people.list.push(key);
+                   people.list.push(key);
+               }
+           }
+           for (let key in people.num){
                if(people.num[key]===3){
                    people.list.unshift(key);
                    people.list.unshift(key);
                    people.list.unshift(key);
                    delete people.num[key];
                    return people.level = 6;
+               }else {
+                   people.list=[];
                }
-               if(people.num[key]===2){
-                   people.list.push(key);
-                   people.list.push(key);
-               }
-           };
+           }
        }
-        //同花
-        for (let key in people.img){
-            if(people.img[key]>=5){
-                for (let i=0;i<5;i++){
-                    people.sortimg.push(key);
-                }
-                return people.level = 5;
-            }
-        };
         //顺子
         if(isStraight(people)){
             return people.level = 4;
@@ -420,8 +415,8 @@ window.onload = ()=> {
                             delete people.num[key];
                         }
                     }
-
-                        people.list.push(Object.keys(people.num)[Object.keys(people.num).length-1]);
+                    people.list.splice(4,2);
+                    people.list.push(Object.keys(people.num)[Object.keys(people.num).length-1]);
                     return people.level = 2;
                 }
             }
@@ -500,68 +495,60 @@ window.onload = ()=> {
         };
     //牌面的大小比较
     function pokerSize(me,he) {
+
         if(me.level===8||me.level===4){
-            if(me.list[4]>he.list[4]){
+            if(parseInt(me.list[4])>parseInt(me.list[4])){
                 me.isWin = true;
             }else {
                 he.isWin = true;
             }
         }else if(me.level===7||me.level===6||me.level===3){
-            if(me.list[0]>he.list[0]){
+            if(parseInt(me.list[0])>parseInt(he.list[0])){
                 me.isWin = true;
             }else {
                 he.isWin = true;
             }
         }else if(me.level===2){
-            if(me.list[0]>he.list[0]){
+            if(parseInt(me.list[0])>parseInt(he.list[0])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&me.list[2]>he.list[2]){
+            }else if(parseInt(me.list[0])===parseInt(he.list[0])&&parseInt(me.list[2])>parseInt(he.list[2])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&me.list[2]===he.list[2]&&me.list[4]>he.list[4]){
+            }else if(parseInt(he.list[2])===parseInt(he.list[0])&&parseInt(me.list[2])===parseInt(he.list[2])&&parseInt(me.list[4])>parseInt(he.list[4])){
                 me.isWin = true;
             }else {
                 he.isWin = true;
             }
         }
         else if(me.level===1){
-            if(me.list[0]>he.list[0]){
+            if(parseInt(me.list[0])>parseInt(he.list[0])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&me.list[4]>he.list[4]){
+            }else if(parseInt(me.list[0])===parseInt(he.list[0])&&parseInt(me.list[4])>parseInt(he.list[4])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&me.list[4]===he.list[4]&&me.list[3]>he.list[3]){
+            }else if(parseInt(me.list[0])===parseInt(he.list[0])&&parseInt(me.list[4])===parseInt(he.list[4])&&parseInt(me.list[3])>parseInt(he.list[3])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&
-                me.list[4]===he.list[4]&&
-                me.list[3]===he.list[3]&&
-                me.list[2]>he.list[2]){
+            }else if(parseInt(me.list[0])===parseInt(he.list[0])&& parseInt(me.list[4])===parseInt(he.list[4])&&parseInt(me.list[3])===parseInt(he.list[3])&& parseInt(me.list[2])>parseInt(he.list[2])){
                 me.isWin = true;
             }else {
                 he.isWin = true;
             }
         }
         else if(me.level===0){
-            if(me.list[0]>he.list[0]){
+            if(parseInt(me.list[0])>parseInt(he.list[0])){
                 me.isWin = true;
-            }else if(me.list[0]===he.list[0]&&me.list[1]>he.list[1]){
-                me.isWin = true;
-            }else if(
-                me.list[0]===he.list[0]&&
-                me.list[1]===he.list[1]&&
-                me.list[2]>he.list[2]){
+            }else if(parseInt(me.list[0])===parseInt(he.list[0])&&parseInt(me.list[1])>parseInt(he.list[1])){
                 me.isWin = true;
             }else if(
-                me.list[0]===he.list[0]&&
-                me.list[1]===he.list[1]&&
-                me.list[2]===he.list[2]&&
-                me.list[3]>he.list[3]){
+                parseInt(me.list[0])===parseInt(he.list[0])&& parseInt(me.list[1])===parseInt(he.list[1])&& parseInt(me.list[2])>parseInt(he.list[2])){
+                me.isWin = true;
+            }else if(
+                parseInt(me.list[0])===parseInt(he.list[0])&&
+                parseInt(me.list[1])===parseInt(he.list[1])&&
+                parseInt(me.list[2])===parseInt(he.list[2])&&
+                parseInt (me.list[3])>parseInt(he.list[3])){
                 me.isWin = true;
             }
             else if(
-                me.list[0]===he.list[0]&&
-                me.list[1]===he.list[1]&&
-                me.list[2]===he.list[2]&&
-                me.list[3]===he.list[3]&&
-                me.list[4]>he.list[4]){
+                parseInt(me.list[0])===parseInt(he.list[0])&& parseInt(me.list[1])===parseInt(he.list[1])&& parseInt(me.list[2])===parseInt(he.list[2])&&parseInt (me.list[3])===parseInt(he.list[3])&&parseInt(me.list[4])>parseInt(he.list[4])){
                 me.isWin = true;
             }else {
                 he.isWin = true;
@@ -579,17 +566,6 @@ window.onload = ()=> {
              }
          }
      }
-    };
-    function getnum(people) {
-        for (let i=0;i<people.sortimg.length;i++){
-            for (let j=0;j<people.imgs.length;j++){
-                if(people.list[i]===people.imgs[j]){
-                    people.list.push(people.nums[j]);
-                    people.imgs.splice(j,1);
-                    people.nums.splice(j,1);
-                }
-            }
-        }
     };
     //给结果牌面添加对应的花色
     function addColor(img,div) {
@@ -617,13 +593,8 @@ window.onload = ()=> {
         he.num = computes(he.nums);
         computeslevel(me);
         computeslevel(he);
-        if(me.level===5){
-            getnum(me);
-            getnum(he);
-        }else {
             getColor(me);
             getColor(he);
-        }
         if(me.level>he.level){
             me.isWin = true;
             mewin.style.display = "block";
