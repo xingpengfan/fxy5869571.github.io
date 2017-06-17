@@ -345,7 +345,6 @@ window.onload = ()=> {
         if(isStraight(people)){
             for (let key in people.img){
                 if(people.img[key]>=5){
-                    people.list.push(people.img[key]);
                     return people.level = 8;
                 }else {
                     people.list = [];
@@ -383,7 +382,7 @@ window.onload = ()=> {
         for (let key in people.img){
             if(people.img[key]>=5){
                 for (let i=0;i<5;i++){
-                    people.list.push(key);
+                    people.sortimg.push(key);
                 }
                 return people.level = 5;
             }
@@ -581,6 +580,17 @@ window.onload = ()=> {
          }
      }
     };
+    function getnum(people) {
+        for (let i=0;i<people.sortimg.length;i++){
+            for (let j=0;j<people.imgs.length;j++){
+                if(people.list[i]===people.imgs[j]){
+                    people.list.push(people.nums[j]);
+                    people.imgs.splice(j,1);
+                    people.nums.splice(j,1);
+                }
+            }
+        }
+    };
     //给结果牌面添加对应的花色
     function addColor(img,div) {
         if(img===poker.hearts.title||img===poker.block.title){
@@ -607,8 +617,13 @@ window.onload = ()=> {
         he.num = computes(he.nums);
         computeslevel(me);
         computeslevel(he);
-        getColor(me);
-        getColor(he);
+        if(me.level===5){
+            getnum(me);
+            getnum(he);
+        }else {
+            getColor(me);
+            getColor(he);
+        }
         if(me.level>he.level){
             me.isWin = true;
             mewin.style.display = "block";
