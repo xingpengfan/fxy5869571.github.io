@@ -1,0 +1,234 @@
+.back{
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: url("http://www.leyu.net/file/yi/images/promo-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.back h1{
+    font-size: 72px;
+}
+.back span{
+    font-size: 24px;
+    color: hsla(0,0%,100%,.7);
+}
+#nav{
+    font-size: 20px;
+}
+#ul li{
+    padding: 0 10px;
+    border-right: 1px solid #f2f2f2;
+}
+.content1{
+    text-align: center;
+    padding: 80px 0;
+}
+ .border{
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background: rgb(147,153,159);
+}
+ .border:hover{
+     transition: width 2s;
+     width: 200px;
+ }
+.content1 img{
+    margin: 30px 0;
+    max-height: 32px;
+}
+.content1 button{
+    margin: 0 10px;
+}
+.content2{
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(147,153,159,0.1);
+}
+#row-img{
+    margin: 10px 0;
+}
+#row-img img{
+    margin: 50px 20px;
+    padding: 15px;
+    background: #dfecf0;
+    border-radius: 50%;
+    width: 65%;
+    height: 65%;
+    box-shadow: 0 0 0 10px rgba(223,236,240,.5);
+}
+.content3{
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+.content3 img{
+    margin: 40px 0 0 0;
+}
+#row-p p{
+    color: rgba(147,153,159,0.8)
+}
+.content4{
+    padding: 50px 0;
+    background: rgba(147,153,159,0.1);
+    text-align: center;
+}
+.content4 img{
+    margin: 40px 0;
+}
+.content4 p{
+    color: rgb(147,153,159);
+  }
+.content4 button{
+    margin-top: 20px;
+}
+.content5{
+    text-align: center;
+    padding: 50px 0;
+}
+.content5 .col-md-4{
+    margin: 40px 0;
+}
+.content5 .col-md-4 p{
+    color: rgb(147,153,159);
+  }
+.content5 h3{
+    line-height: 1.4;
+}
+.dilog{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(80, 193, 233);
+}
+.dilog2{
+    border-color: rgb(255, 117, 52)
+}
+.sanjiao{
+    position: relative;
+    position: absolute;
+    left: 170px;
+    width: 0;
+    height: 0;
+    border: 20px solid;
+    border-color:rgb(80, 193, 233) transparent transparent transparent;
+}
+.sanjiao-2{
+    border-color:rgb(255, 117, 52) transparent transparent transparent;
+}
+.sanjiao2{
+    position: absolute;
+    left: -18px;
+    top: -22px;
+    width: 0;
+    height: 0;
+    border: 18px solid;
+    border-color:white transparent transparent transparent;
+}
+.dilog3{
+    border-color: rgb(236, 135, 193)
+}
+.dilog4{
+    border-color: rgb(172, 146, 237)
+}
+.dilog5{
+    border-color: rgb(160, 212, 104)
+}
+.dilog6{
+    border-color: rgb(237, 85, 100)
+}
+.sanjiao-3{
+    border-color:rgb(236, 135, 193) transparent transparent transparent;
+}
+.sanjiao-4{
+    border-color:rgb(172, 146, 237) transparent transparent transparent;
+}
+.sanjiao-5{
+    border-color:rgb(160, 212, 104) transparent transparent transparent;
+}
+.sanjiao-6{
+    border-color:rgb(237, 85, 100) transparent transparent transparent;
+}
+.h3-1{
+color: rgb(80, 193, 233);
+}
+.h3-2{
+    color: rgb(255, 117, 52);
+}
+.h3-3{
+    color: rgb(236, 135, 193);
+}
+.h3-4{
+    color: rgb(172, 146, 237);
+}
+.h3-5{
+     color: rgb(160, 212, 104);
+ }
+.h3-6{
+       color: rgb(237, 85, 100);
+  }
+.footer{
+    text-align: center;
+    background: #606873;
+    padding: 50px 0;
+}
+.footer h4{
+    color: #dedede;
+}
+.footer a{
+    color: white;
+}
+.footer .col-md-6{
+    margin: 10px 0 ;
+}
+.footer2{
+    text-align: center;
+    padding: 10px 0;
+
+}
+.footer2 ul{
+    list-style: none;
+    padding: 0;
+    margin:0 ;
+}
+.footer2 li{
+    display: inline-block;
+    margin:  10px 20px;
+}
+.footer2 a{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
+@media screen and (max-width: 640px){
+    .dilog{
+        font-size: 12px;
+        width: 150px;
+    }
+    .content1, .content2,.content3,.content4,.content5{
+        padding: 30px 0;
+    }
+    .sanjiao{
+        left: 70px;
+    }
+    .back{
+        margin-top: 80px;
+        height: 300px;
+    }
+    .back h1{
+        font-size: 32px;
+    }
+    .back span{
+        font-size: 18px;
+        color: hsla(0,0%,100%,.7);
+    }
+}

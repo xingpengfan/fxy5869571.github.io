@@ -1,0 +1,27 @@
+.poker{
+    display: inline-block;
+    margin: 20px;
+    width: 2.5em;
+    height: 3.5em;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+.poker span:first-child{
+    display: block;
+    margin-top: 5px;
+}
+.pokers{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.container{
+}
+#mewin,#hewin{
+    color: #27ae60;
+    text-align: center;
+    display: none;
+}
