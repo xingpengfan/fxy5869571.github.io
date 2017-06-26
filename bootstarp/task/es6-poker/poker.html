@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>poker</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="poker.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="pokers" id="xing">玩家一:</div>
+            <div class="pokers" id="fan">玩家二:</div>
+            <div class="pokers" id="common">牌面:</div>
+            <button id="123" class="btn btn-primary">发牌</button>
+            <button id="456" class="btn btn-primary">开牌</button>
+            <button id="reset" class="btn btn-primary">重发</button>
+        </div>
+        <div class="col-md-6" id="result">
+            <div class="pokers" id="he">玩家一:</div>
+            <div class="pokers" id="me">玩家二:</div>
+            <span id="hewin">玩家一赢了</span>
+            <span id="mewin">玩家二赢了</span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="poker.js"></script>
+</html>

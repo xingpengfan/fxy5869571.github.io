@@ -1,0 +1,20 @@
+#gobang{
+    display: block;
+    box-shadow: 2px 2px 2px #000;
+    background: url("1.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#result{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-family: 微软雅黑;
+    font-size: 50px;
+    z-index: 99;
+}

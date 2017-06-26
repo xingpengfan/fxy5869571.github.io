@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0px;
+}
+body{
+    background: #444;
+}
+table{
+    border-collapse:collapse;
+    overflow: hidden;
+    border:1px solid #ddd;
+    margin:100px auto 10px auto;
+}
+td{
+    display: table-cell;
+    width:20px;
+    height:20px;
+    background: #fff;
+    border:1px #eeeeee solid;
+}
+.snake{
+    background: #3388ee;
+}
+.notsnake{
+    background: #fff;
+}
+.food{
+    background: #33aa33;
+}
+.snake_head{
+    background: #dd4444;
+}
+.notice{
+    width:450px;
+    text-align: center;
+    margin:50px auto;
+    color:#fff;
+    font-size: 14px;
+}
+#span{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #000;
+    color: #33aa33;
+}
